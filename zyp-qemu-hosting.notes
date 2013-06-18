@@ -1,0 +1,78 @@
+#include <stdint.h>
+#include <os/time.h>
+#include <os/thread.h>
+
+uint32_t semihosting_call(uint32_t num, const uint32_t* args) {
+	register uint32_t a asm("r0") = num;
+	register uint32_t b asm("r1") = (uint32_t)args;
+	
+	asm volatile("bkpt 0xab" : "=r"(a) : "0"(a), "r"(b) : "memory");
+	
+	return a;
+}
+
+void semihosting_write(const void *buf, uint32_t length) {
+	uint32_t args[3] = {
+		2,
+		(uint32_t)buf,
+		length,
+	};
+	
+	semihosting_call(5, args);
+}
+
+void semihosting_print(const void *buf) {
+	semihosting_call(4, (const uint32_t*)buf);
+}
+
+void foo_main() {
+	while(1) {
+		semihosting_print("foo\n");
+		Time::sleep(500);
+	}
+}
+
+uint32_t foo_stack[1024];
+
+Thread foo_thread(foo_stack, sizeof(foo_stack), foo_main);
+
+int main() {
+	// Initialize system timer.
+	STK.LOAD = 12500000 / 1000; // 1000 Hz.
+	STK.CTRL = 0x07;
+	
+	foo_thread.start();
+	
+	for(int i = 0; i < 5; i++) {
+		semihosting_print("main\n");
+		Time::sleep(1000);
+	}
+	
+	semihosting_call(0x18, 0);
+}
+
+/*
+
+remilia:laks_demo zyp$ time qemu-system-arm -machine lm3s6965evb -nographic -monitor null -serial null -semihosting -kernel demo.elf
+main
+foo
+foo
+main
+foo
+foo
+main
+foo
+foo
+foo
+main
+foo
+foo
+main
+foo
+foo
+
+real	0m5.024s
+user	0m4.792s
+sys	0m0.364s
+
+*/
