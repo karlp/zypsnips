@@ -1,0 +1,15 @@
+SOT23-5 LDOs with standard pinout under $1
+ 
+MCP1824T-3302E/OT   6V max
+MCP1802T-3302I/OT   10V max
+TLV70233DBVR        5.5V max
+PT7M8206B33TA5EX    5.5V max
+LDS3985M33R     6V max
+NCP4625HSN33T1G     10V max
+LDK130M33R      5.5V max
+SPX3819M5-L-3-3/TR  16V 500mA max
+LP2992AIM5-3.3/NOPB 16V max
+
+Original source:
+< dongs> http://bcas.tv/paste/results/gSlmgQ44.html
+
