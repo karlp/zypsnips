@@ -1,0 +1,18 @@
+21:36 < emeb> karlp: I've also just done inline assy to use the SSAT16 instr.
+21:36 < emeb> seems to work fine.
+21:38 < karlp> meh, too much work :)
+21:38 < karlp> will file that away for later.
+21:40 < emeb> inline int16_t audio_sat(int32_t in)
+21:40 < emeb> {
+21:40 < emeb> #if 0
+21:40 < emeb> I/* manual saturation */
+21:40 < emeb> Iin = in >  32767 ?  32767 : in;
+21:40 < emeb> Iin = in < -32768 ? -32768 : in;
+21:40 < emeb> #else
+21:40 < emeb> I/* using ARM Cortex M4 signed saturation instruction */
+21:40 < emeb> Iasm("ssat %[dst], #16, %[src]" : [dst] "=r" (in) : [src] "r" 
+              (in));
+21:40 < emeb> #endif
+21:40 < emeb> Ireturn in;
+21:40 < emeb> }
+
