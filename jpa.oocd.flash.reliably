@@ -1,0 +1,5 @@
+openocd -f interface/stlink-v2.cfg -f target/stm32f1x.cfg -c "reset_config trst_and_srst srst_nogate connect_assert_srst; program your_elf.elf verify reset"
+
+
+
+
