@@ -1,0 +1,6 @@
+20:56 < zyp> also, if you're not really good at assembly, it's pretty likely
+that the compiler would generate faster code than you too :p
+20:57 < emeb_mac> that's been my experience on ARM
+20:58 < emeb_mac> I can out-code the MCHP dsPIC compiler on DSP stuff, but
+arm-gcc runs rings around me.
+
