@@ -1,6 +1,11 @@
-20:56 < zyp> also, if you're not really good at assembly, it's pretty likely
-that the compiler would generate faster code than you too :p
-20:57 < emeb_mac> that's been my experience on ARM
-20:58 < emeb_mac> I can out-code the MCHP dsPIC compiler on DSP stuff, but
-arm-gcc runs rings around me.
+< CCC> also, if you're not really good at assembly, it's pretty likely that the compiler would generate faster code than you too :p
+< BBB> that's been my experience on ARM
+< BBB> I can out-code the MCHP dsPIC compiler on DSP stuff, but arm-gcc runs rings around me.
+...
+< DDD> why are you using arm asm with keil bro
+< DDD> you think can code better than compiler????
+< DDD> that only happens with gcc
+< AAA> lolDDD
+< EEE> even gcc can make better code than AAA
+
 
