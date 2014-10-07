@@ -1,0 +1,47 @@
+https://github.com/mtharp/laureline-firmware/raw/master/util/elf_usage.py
+
+Example output:
+
+elf_usage.py adc-dac-printf.elf 
+addr     symbol
+20000000 rcc_ppre1_frequency
+20000004 rcc_ppre2_frequency
+20000008 impure_data
+20000430 _impure_ptr
+20000434 lconv
+2000046c lc_ctype_charset
+2000048c __mb_cur_max
+20000490 __malloc_av_
+20000898 __malloc_trim_threshold
+2000089c __malloc_sbrk_base
+200008a0 __wctomb
+200008a4 _edata
+200008a8 __malloc_max_sbrked_mem
+200008ac __malloc_top_pad
+200008b0 __malloc_current_mallinfo
+200008d8 heap_end.4058
+200008dc errno
+200008e0 end
+20002000 _stack
+
+size     symbol
+       4 __malloc_trim_threshold
+       4 __malloc_max_total_mem
+       4 _impure_ptr
+       4 __mb_cur_max
+       4 heap_end.4058
+       4 rcc_ppre1_frequency
+       4 __malloc_top_pad
+       4 __wctomb
+       4 errno
+       4 __malloc_max_sbrked_mem
+       4 __malloc_sbrk_base
+       4 rcc_ppre2_frequency
+      32 lc_ctype_charset
+      40 __malloc_current_mallinfo
+      56 lconv
+    1032 __malloc_av_
+    1064 impure_data
+
+total RAM: 2272
+
