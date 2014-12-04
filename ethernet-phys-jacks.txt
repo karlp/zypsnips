@@ -1,0 +1,12 @@
+Jacks:
+qyx: RJHSE-338X (Amphenol)
+    x = 0 (no leds) x = something else, different led colours
+
+PHYs:
+qyx: ksz8031rnl (Micrel) (small, cheap, nice)
+    (This is EOL, micrel reccommends KSZ8081RNx replacement)
+
+dongs: DP83848 (TI, ex natsemi)
+
+
+
