@@ -5,6 +5,7 @@ qyx: RJHSE-338X (Amphenol)
 PHYs:
 qyx: ksz8031rnl (Micrel) (small, cheap, nice)
     (This is EOL, micrel reccommends KSZ8081RNx replacement)
+    (8091 is the same, with WakeOnLan and energy saving ethernet stuff)
 
 dongs: DP83848 (TI, ex natsemi)
 
