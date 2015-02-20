@@ -1,6 +1,13 @@
 Jacks:
 qyx: RJHSE-338X (Amphenol)
     x = 0 (no leds) x = something else, different led colours
+gxti:
+    http://www.digikey.com/product-search/en?keywords=553-1619-5-ND
+01:35 < gxti> you can get compatible ones from china if you're super cheap
+01:35 < dongs> HR911105A
+01:35 < dongs> they're fucking everywehre
+01:36 < gxti> they're in ur beagleboner
+
 
 PHYs:
 qyx: ksz8031rnl (Micrel) (small, cheap, nice)
