@@ -1,0 +1,22 @@
+Links of images of amaze greenwire work.
+(And discussions on alternatives)
+
+ReadError: 2015-02 http://i.imgur.com/9f4Z9Xb.jpg
+(VDD/VSS pin swap)
+
+11:28 < jpa-> could've just lifted the pins, IIRC stm32 has internal connection
+between the pins even though you are supposed to connect them all
+11:29 < ReadError> o
+11:29 < ReadError> i couldnt find anything in the datasheet
+11:29 < ReadError> that was my 1st choice ;/
+11:29 < jpa-> it is not specced
+11:31 < ReadError> boop test seems to confirm this
+11:31 < ReadError> should have woken up more before i did this..
+11:32 < GargantuaSauce> probably safer than having them so close together that
+the board flexing from plugging in a connector or whatever could short them
+(added for good measure)
+12:19 < dongs> how the fuck can you even swap gnd/vss
+12:19 < dongs> does eagle not have some way to tell you "IT LOOKS LIKE YOU'RE
+ABOUT TO FUCK UP.  WOULD YOU LIKE SOME CLIPPY ASSISTANCE? Y/N"
+
+
