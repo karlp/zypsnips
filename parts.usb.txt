@@ -1,0 +1,12 @@
+Micro USB connectors:
+This is the channel recommended, combo PTH+SMD, for as rugged as you can get
+http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357
+
+Note it does have slots, so it's not for every cheap fab house, and it's not
+necessarily easy for home soldering, but it's solid.
+
+06:47 < dongs> microusb is the stuff me + zyp use
+06:47 < dongs> fci
+06:47 < dongs> 10103594-0001LFI
+06:48 < zyp> it's not AB, it's B
+
