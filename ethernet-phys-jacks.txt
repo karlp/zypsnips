@@ -16,5 +16,11 @@ qyx: ksz8031rnl (Micrel) (small, cheap, nice)
 
 dongs: DP83848 (TI, ex natsemi)
 
+Other people have used the SMSC LAN8720A, but...
+03:11 < zyp> shame the phy doesn't have cable test functions
+03:11 < emeb> yeah, it's got a loopback, but that's all
+03:11 < zyp> the micrel phy got some fancy reflectometry function for testing the cable
+03:12 < emeb> nice
+03:12 < emeb> and it's got a lower BOM - fewer passives IIRC
 
 
