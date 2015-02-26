@@ -1,0 +1,7 @@
+01:23 < dongs> FC-135 i used on teh dildo is tiny
+01:23 < dongs> (rtc xtal)
+01:23 < zyp> what's the usual footprint for SMT 32k crystals?
+01:24 < dongs> and that one is avialable a lot
+01:24 < zyp> ah, I'll go for that then
+01:24 < dongs> http://www5.epsondevice.com/en/quartz/product/crystal/tuning_fork/fc135.html
+
