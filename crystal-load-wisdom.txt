@@ -7,3 +7,6 @@
 07:50 < dongs> just like 1M parallel shit
 07:50 < dongs> remove for great justice
 
+[On calculating C1/C2 from Cl values]
+16:14 < zyp> rule of thumb, C1 and C2 should be 2*Cl minus some for the stray capacitance
+
