@@ -1,0 +1,40 @@
+
+So you want to charge from usb, some iDevice, some standard device, some who
+the hell cares device...
+
+< PeterM> TPS2513
+< Taxman> PeterM: i know this chip. it works great
+< PeterM> englishman actually it is good pinout
+< PeterM> you put the chip sideways and you can route it directly to 2x ports
+< PeterM> http://imgur.com/UoxKpK5
+(flames for stupid footprint with silk outside pads)
+14:23 < dongs> how do you configure that TPS
+14:23 < dongs> for different charging shit
+14:23 < PeterM> you dont
+14:23 < dongs> or is it all automatic
+14:23 < PeterM> all automatatic
+14:24 < dongs> http://e2e.ti.com/support/power_management/power_interface/f/204/p/295853/1251396
+14:24 < englishman> only choice you have is 5w/10w charger
+14:24 < dongs> why is this dick talking about 'configuration'
+14:24 < englishman> cuz hes dum
+14:25 < englishman> whether your charger is 5w or 10w depends on what charging
+hardware youre using
+14:25 < englishman> not something that would be dynamic
+14:25 < englishman> if im getting this correctly
+14:28 < PeterM> if you want to use it as a 10W charger you wire the dm/dp the
+right way and it will signal 10w capable, if you wire reverse it signals 5w, how
+hard can it be?
+14:30 < PeterM> its not fucking rocket surgery
+14:31 < PeterM> GL888F, VP203, EC49021, F75198, EST5198,CW3002D, MAX14630 have the swiching dividers in them but most of them are single port, which youcan
+"configure" with a resistor", unlike the automatatic TI part
+14:32 < dongs> so i just connect dp>dp, dm>dm and all is good right?
+14:32 < dongs> this shit is gnna be hooked up to like 50A 5V smps
+14:32 < dongs> so shits can draw as much as it wants
+14:32 < PeterM> yeah
+14:32 < PeterM> dp-dp, dm-dm
+14:33 < PeterM> for a shitty 5v 1a wallwart you switch em
+
+
+
+
+Footnote for channel on-topicness: http://i.imgur.com/ts1tBQ7.jpg
