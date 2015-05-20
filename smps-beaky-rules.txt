@@ -1,0 +1,32 @@
+
+So, you've got ripple on your smps?  And you're scoping it how?
+(Oh, you do know about capacitor derating on dc bias right?)
+
+Let our resident definitely not a russian advise you....
+
+01:38 < R2COM> what caps on in and out and what inductor?
+01:38 < R2COM> what is part # for that cap?
+01:39 < R2COM> whats its DC rating?
+01:41 < R2COM> @ 5V for that specific cap, you have according to datasheet characteristics -60% 
+               Capacitance
+01:41 < R2COM> thats first big fault
+01:41 < R2COM> another thing is
+01:41 < R2COM> how do you actually MEASURE it?
+01:41 < R2COM> how do you connect scope probe to it?
+01:41 < R2COM> i mean
+01:41 < R2COM> in what mode scope input is configured?
+01:42 < dongs> just normal capture. and i tried both long gnd lead and short test clip, its ~same
+01:42 < R2COM> DC or AC input?
+01:42 < dongs> should be dc
+01:42 < R2COM> wrong
+01:42 < R2COM> must use AC input
+01:42 < R2COM> did you also BW limited the channel?
+01:43 < dongs> no and no
+01:43 < R2COM> so: wrong measurement
+01:44 < R2COM> configure scope to AC input, BW to 20MHz limit, then turn off your circuit, connect 
+               probe to where you measuring it, and select number of averages so that you see <<1mV 
+               ripple
+01:44 < R2COM> then turn on circuit
+01:44 < R2COM> that would be proper measurement
+
+
