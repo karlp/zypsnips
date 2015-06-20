@@ -1,0 +1,63 @@
+http://pastie.org/pastes/10249618/text
+
+Source: LaurenceB
+validity: totally unknown, probably lacking spaces.
+origin: man vs compiler debate
+
+/*ASM Biquad Filter for arm cortex M3*/
+        .syntax unified
+        .cpu cortex-m3
+        .thumb
+
+        .global          biquad
+        .section        .text
+        .type            biquad STT_FUNC
+
+
+/*enter with r0 = memory address of data structure for :
+	       	     r0 = y(n-1)*/
+	/* 	     r1 = y(n-2)*/
+	/*	     r2 = x(n-1)*/
+	/*	     r3 = x(n-2)*/
+	/*  r1 = pointer to data*/
+	/*  r2 = location of end of data*/
+/*	     r4 = pointer to data*/
+/*	     r5 = used as temporary storage*/
+/*	     r8 = location of end of data*/
+
+/*	     r9 = used for storing pointer to filter state*/
+/*		At ~870kSps ADC, this will probably use ~16Mhz of cpu*/
+
+biquad:
+	stmdb sp!,{r4, r5, r8, r9, sl, fp}/*Store the registers that are overwritten here*/
+	mov r4,r1
+	mov r8,r2
+	mov r9,r0			/*Store the filter state pointer here*/
+/* Hardcoded filter coefficients are of the form (1-2^(-n)), where n has been set to 7*/
+/* http://www-users.cs.york.ac.uk/~fisher/cgi-bin/mkfscript*/
+	ldmia.w r0,{r0,r1,r2,r3}	/*Load the registers that store the filter state*/
+	biquad_loop:
+		sub	r1, r1, r1, asr #7/*Overwrite the y(n-2) by multiplying by (1-2^-7), 1 clk*/
+		mvn	r1, r1		/*y(n-2) multiplied by -1, 1 clk*/
+		sub	r1, r1, r0, asr #6/*Multiply the y(n-1) by (2^-6) and subtract from r1, 1 clk*/
+		add	r1, r1, r0, lsl #1/*Add the y(n-1)*2 into r1, this is y(n), 1 clk*/
+		sub	r1, r3		/*Subtract the x(n-2) value off our y(n), 1 clk*/
+		ldrsh	r3, [r4]	/*Load a sample to r3 using r4 pointer, uses 2 clks*/
+		add	r1, r3		/*Add the current value to our y(n), uses 1 clk*/
+		asr	r5, r1, #8	/*Divide the y(n) value by the gain of 256 to normalize, 1clk*/
+		strh	r5, [r4], #2	/*Write back the y(n) value to same memory address, then incr, 2clks*/
+		/*Second inlined iteration of the filter goes here*/
+		sub	r0, r0, r0, asr #7/*Overwrite the y(n-2) by multiplying by (1-2^-7), 1 clk*/
+		mvn	r0, r0		/*y(n-2) multiplied by -1, 1 clk*/
+		sub	r0, r0, r1, asr #6/*Multiply the y(n-1) by (2^-6) and subtract from r0, 1 clk*/
+		add	r0, r0, r1, lsl #1/*Add the y(n-1)*2 into r1, this is y(n), 1 clk*/
+		sub	r0, r2		/*Subtract the x(n-2) value off our y(n), 1clk*/
+		ldrsh	r2, [r4]	/*Load a sample to r2 and incriment pointer, uses 2 clks*/
+		add	r0, r2		/*Add the current value to our y(n), uses 1 clks*/
+		asr	r5, r0, #8	/*Divide the y(n) value by the gain of 256 to normalize, 1clks*/
+		strh	r5, [r4], #2	/*Write back the y(n) value to same memory address,incr, 2clks*/
+		cmp	r4,r8
+		blt biquad_loop		/*Branch if r4 is less than r9, 5clks*/
+	stmdb r9,{r0,r1,r2,r3}		/*Store registers for reference at next filter run*/
+	ldmia.w sp!, {r4, r5, r8, r9, sl, fp}/*Restore the registers*/
+	bx lr
