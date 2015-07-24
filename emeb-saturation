@@ -1,3 +1,6 @@
+Updated july 2015.  emeb says that gcc now has recognizers for the code construct
+manually doing saturation in C.  Needs more research to find out what that code is...
+
 21:36 < emeb> karlp: I've also just done inline assy to use the SSAT16 instr.
 21:36 < emeb> seems to work fine.
 21:38 < karlp> meh, too much work :)
