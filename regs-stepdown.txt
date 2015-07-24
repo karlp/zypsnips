@@ -1,0 +1,24 @@
+This comes up a bit, but I haven't captured all the favourites here yet...
+I'll try and keep updating this with winners over time...
+
+we're normally talking "somewhat large" vin, "somewhat reasonable" current rating.
+People normally want "cheap" and "as few as possible external components"
+and "small inductorz plz"
+
+(4.5-18V input)
+12:00 < dongs> http://www.ti.com/product/tps54627 is awesome according to my twpal
+12:00 < dongs> he uses it for everything
+12:00 < dongs> they're .25c/ea in a reel for him,, china has them for about .80
+12:00 < dongs> tiny inductor and very low ripple
+12:00 < dongs> yes 6A but it works for everything even when you dont need 6A
+
+http://www.ti.com/product/tps54232/description should be even cooler, 3-28V input, 2A.
+
+
+RT8293B is super cheap
+MP2403 (pin compat with richtek)
+
+scrts: MP28128, (2.7-6Vin, 2.5A output, 1.5Mhz)
+
+qyx suggested L5973D, http://www.st.com/web/catalog/sense_power/FM142/CL1854/SC1575/PF63225
+but fuck that, way too many external parts...
