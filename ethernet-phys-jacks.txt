@@ -13,6 +13,7 @@ PHYs:
 qyx: ksz8031rnl (Micrel) (small, cheap, nice)
     (This is EOL, micrel reccommends KSZ8081RNx replacement)
     (8091 is the same, with WakeOnLan and energy saving ethernet stuff)
+qyx also approves of 8051, fwiw.
 zyp: ksz8081rnaca
 
 dongs: DP83848 (TI, ex natsemi)
@@ -24,4 +25,5 @@ Other people have used the SMSC LAN8720A, but...
 03:12 < emeb> nice
 03:12 < emeb> and it's got a lower BOM - fewer passives IIRC
 
-
+MACs:
+no, we aint recommending no 10meg spi mac+phy combos numbnuts.
