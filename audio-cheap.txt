@@ -1,0 +1,82 @@
+ver raw
+
+13:48 < dongs> emeb: found PAM8301 for $~0.20
+13:49 < dongs> whats your higher highs assessment of that one
+13:49 < emeb> looking...
+13:50 < emeb> that's cute
+13:50 < emeb> tiny, no big caps needed...
+13:52 -!- Viper168 [~Viper@unaffiliated/viper168] has quit [Ping timeout: 246
+seconds]
+13:58 < emeb> dongs: looks like a nice part. You can make a simple RC LPF for
+reconstruction and gain 
+              control but it's hard for me to tell right off what the ideal
+values would be.
+13:59 < emeb> so that plus 3 passive parts hooked to the F4xx DAC output would
+probably work fine.
+13:59 < dongs> emeb: on where? input or output
+14:01 < emeb> F4xx DAC pin - DC blocking cap (0.1-1.0uf) - LPF & Gain resistor
+- PAM input
+14:01 < emeb> then an LPF cap from PAM input to GND
+14:01 < dongs> hm thats adding more parts than i really care about
+14:01 < dongs> i can understand rc lpf, what about rest of shit?
+14:01 < dongs> wahts gain for
+14:02 < emeb> DC blocking cap?
+14:02 < dongs> no like
+14:02 < dongs> i ahve dc cap now
+14:02 < dongs> dac -> cap -> pam input
+14:02 -!- Viper168 [~Viper@unaffiliated/viper168] has joined ##stm32
+14:02 < dongs> i can add a rc lpf after cap (?or before cap?)
+14:02 < dongs> but whats the 'gain resistor' thing?
+14:03 < emeb> gain resistor is to control how hard the DAC drives the amp
+14:03 < emeb> if DAC full swing overdrives the amp then you lose resolution
+14:03 < emeb> so resistor is there to limit gain
+14:04 < emeb> DAC gives ~3.3Vpp
+14:04 < dongs> but if you turn on buffer
+14:04 < dongs> its less
+14:04 < emeb> only slightly less
+14:04 < emeb> 3.1Vpp maybe
+14:05 < dongs> so you think its necesary
+14:05 < emeb> you could always just reduce the signal range in DSP
+14:05 < emeb> but that cuts resolution and raises noise floor
+14:05 < emeb> so it's better to use analog gain -> resistor
+14:06 < emeb> But - for minimum parts, just use DC blocking cap and make up for
+it in software.
+14:06 < dongs> yay
+14:07 < emeb> If it were me I'd put two more passives in the signal path just
+for pro / hifi. :)
+14:08 < dongs> so R in series and C to gnd right? but thats just LPF?
+14:08 < emeb> yes
+14:08 < dongs> or do you mean another R after that for gain?
+14:08 < emeb> no
+14:08 < dongs> just thast?
+14:08 < emeb> yes
+14:08 < emeb> the PAM input has 10k impedance
+14:08 < emeb> so the value of R you use affects gain too
+14:08 < dongs> ah right
+14:08 < dongs> im looking at some tarduino shit
+14:08 < dongs> 1.5k/10nF for 11khz lpf
+14:09 < Laurenceb> lol
+14:09 < Laurenceb> dongs is a perman00b
+14:09 < dongs> yuep
+14:09 < dongs> and proud of it
+14:09 < dongs> i leave analol'g shit to pros
+14:10 < dongs> emeb: wait, that RC is before or after ac bias cap
+14:10 < emeb> dongs: yes - those values give ~10.6kHz corner freq
+14:10 < Laurenceb> Quinetiq etc
+14:10 < emeb> and it doesn't matter what order you put them in
+14:11 < dongs> mmkay ill do them before
+14:11 < emeb> but I'd put DC cap @ F4 output, then R, then C
+14:11 < dongs> o okay
+14:11 < dongs> then after.
+14:11 < emeb> the 1.5k resistor won't affect gain much
+14:11 < dongs> i could always replace it wiht 0R
+14:11 < dongs> and NP the cap
+14:12 < dongs> for max pro
+14:12 < emeb> yes
+14:12 < dongs> if something isnt working
+14:12 -!- barthess [~barthess@86.57.155.106] has joined ##stm32
+14:13 < emeb> if you need to cut gain then just multiply R and divide C by same
+factor to preserve corner 
+              freq
+14:13 < emeb> (so double R, half C, etc)
+
