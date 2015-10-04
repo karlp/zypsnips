@@ -1,0 +1,22 @@
+
+05:19 < PeterM> but yeah, wind your own toroids for smps prototyping etc - waiting for mouser/digikey/e14 isnt worth
+05:19 < R2COM> wat??
+05:19 < R2COM> are you a retard
+05:19 < R2COM> for prototyping you simulate
+05:20 < R2COM> and wait time for mouser can be as next day if you pay $50
+05:20 < R2COM> and several dollars for few business days
+05:20 < R2COM> winding shit is for old hamfaggots
+05:20 < PeterM> several dollars and you have stock of a few cores and some wire and 10 mins oytu have your inductor
+05:22 < R2COM> learn how to sim
+05:22 < R2COM> learn how to use proper models and represent them in sim
+05:23 < upgrdman> PeterM, how do you pick a toroid material, and how do you determine how much energy it can store?
+05:23 < PeterM> upgrdman, math and sim
+05:24 < R2COM> you know math?
+05:24 < PeterM> no fucking shit?
+05:25 < emeb_mac> who needs math? For simulations you just plop models down and push a button on the GUI.
+05:25 < upgrdman> how the fuck do you sim a china toroid?
+05:26 < upgrdman> like this huge ass toroid  
+http://www.aliexpress.com/store/product/T300-52D-Magnetic-core-inductance-core-core-soft-magnetic-iron-powder-core-materials/407105_32464575756.html
+05:26 < R2COM> set country parameter to "china" in sim model
+05:26 < emeb_mac> lol
+
