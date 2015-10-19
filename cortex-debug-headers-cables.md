@@ -3,7 +3,8 @@ Common older style is 2x10, 2.54mm pitch.
 
 ## Cables
 
-[Olimex 2.54mm->1.27mm adapter](https://www.olimex.com/Products/ARM/JTAG/ARM-JTAG-20-10/)
+[Olimex 2.54mm->1.27mm adapter](https://www.olimex.com/Products/ARM/JTAG/ARM-JTAG-20-10/) 
+(Also available as [Digikey part number: 1188-1016-ND](http://www.digikey.com/product-search/en?keywords=1188-1016-ND))
 
 [Cable only](http://microcontrollershop.com/product_info.php?products_id=4517)
 
