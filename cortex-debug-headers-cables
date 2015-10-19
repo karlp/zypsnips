@@ -1,3 +1,15 @@
+Assuming you want to use ARM's "standard" cortex debug, that's 2x10, 1.27mm pitch
+Common older style is 2x10, 2.54mm pitch.
+
+## Cables
+
+https://www.olimex.com/Products/ARM/JTAG/ARM-JTAG-20-10/
+http://microcontrollershop.com/product_info.php?products_id=4517
+(The cables are also on digikey these days)
+
+
+## Board headers
+
 esden's choice: FTSH-105-01-L-DV-K   (SMT)
 not super cheap, (he gets from samtec directly) but it has partial 
 shrouding, only around the pins where the key on the cable goes, so it
