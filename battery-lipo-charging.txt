@@ -1,0 +1,4 @@
+19:03 < Ecco> Also, what would be the cheapest way to charge a single cell LiPo battery over USB?
+19:07 < englishman> TP4056 or friends work fine
+19:07 < englishman> theres more complicated shit like BQ24075
+19:11 < BrainDamage> use a charge controller and you'll be fine
