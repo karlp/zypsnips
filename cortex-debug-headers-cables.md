@@ -1,8 +1,8 @@
 ## ARM "standard" cortex debug
 ARM made a new "standard" for cortex debug, because smaller is cooler y0. [Read their description of it here](http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf)
 
-The takeaway is, 2x10, in a _svelte_ 1.27mm pitch  
-The common older style is also 2x10, but in fatduino 2.54mm pitch.
+The takeaway is, 2x5, in a _svelte_ 1.27mm pitch  
+The common older style is 2x10, but in fatduino 2.54mm pitch.
 
 ## Cables
 
