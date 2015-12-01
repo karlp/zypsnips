@@ -1,0 +1,6 @@
+tl;dr: all eda is teh suck
+
+15:06 < dongs> zyp, really now? first of all it hardly ever crashes for me,
+second, when it DOES crash, its very easy to quiet down the crash dialogs by not
+movingthe mouse, and then save and quit by keyboard
+
