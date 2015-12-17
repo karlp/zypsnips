@@ -1,4 +1,4 @@
-ver raw
+ver raw.  Make sure to go to the bottom for updates later...
 
 13:48 < dongs> emeb: found PAM8301 for $~0.20
 13:49 < dongs> whats your higher highs assessment of that one
@@ -79,4 +79,14 @@ for pro / hifi. :)
 factor to preserve corner 
               freq
 14:13 < emeb> (so double R, half C, etc)
+
+--- "later" ---
+
+00:29 < emeb> dongs: PAM8301 working - such loud, very gain, wow.
+00:29 < dongs> lol
+00:29 < dongs> indeed
+00:30 < dongs> i had to like 1/4 the dac outputs
+00:30 < dongs> and it was still almost clipping
+00:30 < emeb> I put a 100k resistor in the path to the amp input
+00:30 < emeb> still very loud
 
