@@ -1,0 +1,26 @@
+Have always believed cp210x to be perfectly good awesome cheap alternatives to
+ftdi parts.... felipebalbi has some other opinions...
+
+
+
+22:53 < felipebalbi> CareBear\: they could be using pl2303
+22:53 < CareBear\> yes, I know
+22:53 < felipebalbi> brrrr, that gives me the creeps
+22:54 < felipebalbi> or even worse, cp210x
+22:54 < CareBear\> cp210x are nice
+22:54 < felipebalbi> guess I'll have nightmares
+22:54 < felipebalbi> they're not... Try a loop of open(),
+write_something_large() close()
+22:54 < felipebalbi> it'll fail in 20 or so iterations
+22:54 < felipebalbi> and that's a bug within the device
+22:55 < felipebalbi> we managed to reproduce on windows and linux
+22:55 < felipebalbi> heh
+22:55 < CareBear\> well done!
+22:55 < CareBear\> any response?
+22:55 < felipebalbi> CareBear\: if you open(); loop { write_something_large()
+}; close() -> no 
+                     issues
+22:55 < felipebalbi> CareBear\: of course not :-p  no responses
+22:55 < felipebalbi> CareBear\: had to just call it quits, device can't take it
+22:55 < felipebalbi> move on
+
