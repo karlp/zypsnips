@@ -1,0 +1,11 @@
+17:41 < emeb> Here's the "canonical" paper on windowing: http://web.mit.edu/xiphmont/Public/windows.pdf
+17:41 < emeb> Table 1 has everything you need to know.
+17:42 < BrainDamage> also remember: when you're bored, there's always time to write another FFT window
+
+
+If the link ever dies: 
+
+"On then Use of Windows for harmonic analysis with the Discrete Fourier Transform"
+
+FREDRIC J. HARRIS, Proceedings of the IEEE, Vol 66, No 1. January 1978.
+
