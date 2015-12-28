@@ -9,3 +9,8 @@ If the link ever dies:
 
 FREDRIC J. HARRIS, Proceedings of the IEEE, Vol 66, No 1. January 1978.
 
+
+--- 
+This pdf is "better" in that the _image_ is nicer, but you can't select any
+text out of it, unlike the other one:
+https://www.utdallas.edu/~cpb021000/EE%204361/Great%20DSP%20Papers/Harris%20on%20Windows.pdf
