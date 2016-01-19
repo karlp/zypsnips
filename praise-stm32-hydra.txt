@@ -1,0 +1,3 @@
+17:01 < balbi> PaulFertser: dude, stm32l0 is so much easier to deal with than Atmel's m0
+17:01 < balbi> PaulFertser: so much simpler, better docs...
+

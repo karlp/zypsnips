@@ -1,0 +1,10 @@
+Just a few short anecdotes of things gone wrong in the labd:
+
+20:19 < PeterM> i have a few of the lower power versions, they're good - but dont like you putting 
+                mains voltage on the inputs :P
+20:20 < PeterM> i often have a set of dmm probes plugged into them with a current  limit set and use 
+                that to check diods Vf and the like
+20:21 < PeterM> i also happen to use the same style of probes for my dmm
+20:21 < PeterM> one thing leads to another and you're accidentalyl probing your pfc output with your 
+                powersupply not your dmm
+
