@@ -1,12 +1,11 @@
-ver raw.  Make sure to go to the bottom for updates later...
+Summary, PAM8301 "worked pretty good!"  (good enough that emeb went and bought some)
+Make sure to go to the bottom for the updates
 
 13:48 < dongs> emeb: found PAM8301 for $~0.20
 13:49 < dongs> whats your higher highs assessment of that one
 13:49 < emeb> looking...
 13:50 < emeb> that's cute
 13:50 < emeb> tiny, no big caps needed...
-13:52 -!- Viper168 [~Viper@unaffiliated/viper168] has quit [Ping timeout: 246
-seconds]
 13:58 < emeb> dongs: looks like a nice part. You can make a simple RC LPF for
 reconstruction and gain 
               control but it's hard for me to tell right off what the ideal
@@ -24,7 +23,6 @@ probably work fine.
 14:02 < dongs> no like
 14:02 < dongs> i ahve dc cap now
 14:02 < dongs> dac -> cap -> pam input
-14:02 -!- Viper168 [~Viper@unaffiliated/viper168] has joined ##stm32
 14:02 < dongs> i can add a rc lpf after cap (?or before cap?)
 14:02 < dongs> but whats the 'gain resistor' thing?
 14:03 < emeb> gain resistor is to control how hard the DAC drives the amp
@@ -74,10 +72,8 @@ for pro / hifi. :)
 14:12 < dongs> for max pro
 14:12 < emeb> yes
 14:12 < dongs> if something isnt working
-14:12 -!- barthess [~barthess@86.57.155.106] has joined ##stm32
 14:13 < emeb> if you need to cut gain then just multiply R and divide C by same
-factor to preserve corner 
-              freq
+factor to preserve corner freq
 14:13 < emeb> (so double R, half C, etc)
 
 --- "later" ---
