@@ -5,3 +5,19 @@
                   for shit unless i was a lucky 1%. so i said fuck it and start to fuck with 
                   software and electronics
 
+
+04:26 < dongs> what hte shit, i cut myself and didnt notice
+04:26 < dongs> bleeding fuckign everywhere
+
+
+(On the atom editor)
+04:13 < R2COM> atom sucks balls
+04:13 < R2COM> it cant do vertical block select
+04:14 < jadew> that's a bummer
+04:14 < R2COM> its like a car without engine
+
+
+(On artoocommie)
+05:29 < dongs> nice stm32-related discussion there bros
+05:29 < dongs> gave up scrolling up to find something useful
+
