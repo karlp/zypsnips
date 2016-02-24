@@ -7,6 +7,11 @@ necessarily easy for home soldering, but it's solid.
 
 06:47 < dongs> microusb is the stuff me + zyp use
 06:47 < dongs> fci
-06:47 < dongs> 10103594-0001LFI
+06:47 < dongs> 10103594-0001LF
 06:48 < zyp> it's not AB, it's B
+
+-later-
+16:01 < aandrew> dongs: thanks again for that usb micro connector part number that doesn't suck. I 
+                 love these little things, although I still hate the connector itself
+
 
