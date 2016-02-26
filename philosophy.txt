@@ -21,3 +21,15 @@
 05:29 < dongs> nice stm32-related discussion there bros
 05:29 < dongs> gave up scrolling up to find something useful
 
+On MISRA-C:
+04:13 < upgrdman> anyone know if theres an eclipse or visual studio plugin for checking MISRA C compliance?
+04:23 < dongs> not free, no
+04:23 < upgrdman> k :(
+04:24 < dongs> even the standard itself isn't free how you expect freetards to give away 
+               testing/checking thing for it
+04:24  * upgrdman hugs mother russia
+04:24 < upgrdman> http://caxapa.ru/thumbs/468328/misra-c-2004.pdf
+04:24 < dongs> yeah .ru sounds like an official site for it
+04:24 < englishman> cant be that good if its waht toyota uses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
