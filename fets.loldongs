@@ -4,10 +4,8 @@
 11:58 < dongs> PeterM: waht are  your generic grabbag nfets
 11:59 < dongs> cheap/common shit
 11:59 < dongs> been using nds355an, looking to diversify
-12:10 -!- PeterK [~PeterK2@h-79-136-64-6.na.cust.bahnhof.se] has joined ##stm32
 12:13 < dongs> http://www.analog.com/static/imported-files/images/evaluation_tools/Eval-ADD5211.jpg
-12:14 < PeterM> i dont use anything in that range usually, sorry. i usually use BSS138 to buffer 
-                IO and Si2304 for anything power
+12:14 < PeterM> i dont use anything in that range usually, sorry. i usually use BSS138 to buffer IO and Si2304 for anything power
 12:14 < dongs> mghg si 2304 looks ~comparable tonds
 12:14 < PeterM> erp not Si2304 SIA418
 12:15 < PeterM> wrong lib copy+paste
@@ -39,4 +37,11 @@ SO-8 fets, with a magical one footprint to rule them all.
 07:11 < dongs> ya
 07:11 < dongs> lots of those
 07:11 < PeterM> http://www.nxp.com/documents/leaflet/939775016838_LR.pdf qyx_ page 9
+
+
+03:00 < dongs> kakimir: yeah. i havent bothered with general purpose tho. i
+have MMBT3904/3906 for pnp/npn transistors, and then NDS355AN for nfet (not really
+great either), or that IRLM for p
+03:00 < PeterM> i dont mind the ao3400/3407 for n and pfet, china has them super cheap
+03:01 < dongs> nice rdson too
 
