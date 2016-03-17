@@ -1,0 +1,13 @@
+TL;DR: elnec.com has a great site.
+
+
+10:52 < karlp> anyone know a good site for package marking logos? or know what mark is like a cross 
+               made up of two infiniti symbols rotated? sort of like a 4 blade propeller?
+10:53 < dongs> could it be: parallax? (lol)
+10:54 < dongs> this?
+10:54 < dongs> http://www.elnec.com/en/support/ic-logos/manufacturer-description/?manuf=Silicon+Laboratories
+10:54 < dongs> or this? silabs?
+10:55 < mitrax> could it be http://www.elnec.com/en/support/ic-logos/manufacturer-description/?manuf=General+Semiconductor ?
+10:56 < karlp> general semiconductor looks pretty spot on
+10:56 < karlp> excellent, great site, thanks dongs
+
