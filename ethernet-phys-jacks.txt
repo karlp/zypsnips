@@ -24,6 +24,10 @@ Other people have used the SMSC LAN8720A, but...
 03:11 < zyp> the micrel phy got some fancy reflectometry function for testing the cable
 03:12 < emeb> nice
 03:12 < emeb> and it's got a lower BOM - fewer passives IIRC
+however:
+dongs sez the lan8720 is readily available for ch33p in china, and
+claims only the usual bypass caps and 12.k RBIAS and that's it. sooo, perhaps emeb
+wasn't remembering correctly that day?
 
 MACs:
 no, we aint recommending no 10meg spi mac+phy combos numbnuts.
