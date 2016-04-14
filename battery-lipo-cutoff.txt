@@ -1,0 +1,12 @@
+<jpa-> you may need a low voltage cutoff; it can be done in software, or you can use a battery with a protection chip
+<lorenzo> jpa-: any simple supervisor IC?
+<lorenzo> was thinking max809 or similar to hold the reset
+<jpa-> holding reset doesn't put stm32 in any particularly low-power state
+<jpa-> if you want to do it in hw, you will want to cut the power to stm32 completely
+<lorenzo> jpa-: so you'd sample/compare the voltage and enter Vbat or some other sleep mode?
+<lorenzo> (if you want to do it in firmware)
+<jpa-> yeah, check voltage with ADC and then go to standby
+<jpa-> requires that the rest of the circuit has low power draw or is controlled by stm32
+<lorenzo> sure
+<PeterM> dw01 series protection ic + 2 nch mosfets (get a dual nchannel sot-23-6/sc-70-6)
+<jpa-> what i don't like about the battery protection chips that they cut out pretty low (2.4 V for DW01), so the battery already gets some damage
