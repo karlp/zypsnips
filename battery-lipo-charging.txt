@@ -2,3 +2,8 @@
 19:07 < englishman> TP4056 or friends work fine
 19:07 < englishman> theres more complicated shit like BQ24075
 19:11 < BrainDamage> use a charge controller and you'll be fine
+
+<Ecco> Guys, is there any reference design I could learn from that uses an STM32 powered by a lipo battery and that charges over USB?
+<jpa-> Ecco: if you want something simple, see page 3 here  http://koti.kapsi.fi/jpa/stuff/other/uunimittari_rx.pdf
+<lorenzo> Ecco: https://cdn-shop.adafruit.com/datasheets/MCP73831.pdf
+<lorenzo> probably one of the simplest / lowest part count you can get
