@@ -1,0 +1,42 @@
+// ==UserScript==
+// @name         Improve AliExpress search
+// @namespace    
+// @version      0.1
+// @author       TheSeven
+// @include      http://*aliexpress.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    document.documentElement.addEventListener("selectstart", function(e){e.stopPropagation();}, true);
+
+    var form = $("#narrow-form");
+    if (!form.length) return;
+    var anchor = $("#isLocalReturn");
+    var input = $("input[name=isUnitPrice]");
+    if (!input.length)
+    {
+        $("input[name=g]").val("n");
+        $("<input type='hidden'>").attr("name", "SortType").val("price_asc").insertBefore(anchor);
+        $("<input type='hidden'>").attr("name", "isUnitPrice").val("y").insertBefore(anchor);
+        form.submit();
+    }
+    var link = $("<a href='javascript:;'>").addClass("filter-item").append($("<i>").addClass("check-icon")).append(" <span>Price per piece</span>").insertBefore(anchor);
+    if (input.val() == "y") link.addClass("selected");
+    link.click(function(){input.val(input.val() == "y" ? "n" : "y"); link.toggleClass("selected"); form.submit();});
+
+    var args = {};
+    window.location.search.substr(1).split('&').forEach(function(a)
+    {
+        var p = a.split("=");
+        if (p.length == 2) args[p[0]] = decodeURIComponent(p[1]);
+    });
+    anchor = $(".filter-price-c");
+    var div = $("<div>").addClass("filter-quantity-c").insertAfter(anchor);
+    div.append($("<span>").addClass("ui-label").append("Quantity:")).append(" ");
+    div.append($("<input>").addClass("ui-textfield").addClass("ui-textfield-system").attr("id", "filter-quantity-from").attr("name", "minQuantity").attr("autocomplete", "off").attr("placeholder", "min").val(args.minQuantity));
+    div.append(" - ");
+    div.append($("<input>").addClass("ui-textfield").addClass("ui-textfield-system").attr("id", "filter-quantity-to").attr("name", "maxQuantity").attr("autocomplete", "off").attr("placeholder", "max").val(args.maxQuantity));
+    div.append(" ").append($("<a href='javascript:;'>").addClass("ui-button").addClass("narrow-go").append("OK").click(function(){form.submit();}));
+})();
