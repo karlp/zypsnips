@@ -5,6 +5,10 @@ we're normally talking "somewhat large" vin, "somewhat reasonable" current ratin
 People normally want "cheap" and "as few as possible external components"
 and "small inductorz plz"
 
+AOZ1282CI -4.5V to 36V, 1.2A, 450khz, non sync, sot-23-6, $0.2 from cn 
+AOZ1280CI -3V to 26V, 1.5A, 1.5mnhz, non sync, sot-23-6, $0.2 from cn
+^^^^both pin compatible, non-cn prices are good too.
+
 (4.5-18V input)
 12:00 < dongs> http://www.ti.com/product/tps54627 is awesome according to my twpal
 12:00 < dongs> he uses it for everything
