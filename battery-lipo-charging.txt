@@ -7,3 +7,7 @@
 <jpa-> Ecco: if you want something simple, see page 3 here  http://koti.kapsi.fi/jpa/stuff/other/uunimittari_rx.pdf
 <lorenzo> Ecco: https://cdn-shop.adafruit.com/datasheets/MCP73831.pdf
 <lorenzo> probably one of the simplest / lowest part count you can get
+
+RT9480 is basically a powerbank in a chip, LiPo charger, boost converter, battery gague. Pretty cheap too, possibly repurposable.
+
+BQ24600 is multi cell stepdown charger, good for up to 6 cells, no useless i2c etc. Quite a few external components etc, BUT datsheet example shows you everything you need, so if you have room its good to go.
