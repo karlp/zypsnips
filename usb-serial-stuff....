@@ -1,6 +1,19 @@
-Have always believed cp210x to be perfectly good awesome cheap alternatives to
-ftdi parts.... felipebalbi has some other opinions...
+The channel consensus has normally been that cp210x is best & cheapest.
+FT230x stuff (the _new_ ftdi parts) are also reliable, and some supply
+chains have them cheaper than the cp210x.  _however_ you then have the
+whole FTDI driver debacles to decide whether you care.
 
+For RS485, FTDI parts support them out of the box, CP210x parts need to
+be eeprom/OTP customized.
+
+PL230x have a historic bad name, but are allegedly not as suckful as they were.
+
+CH340/CH341 have terrible drivers in linux (no parity, highly unstable) but
+patches are expected to land in ~4.7 that finally bring it up to par.  
+
+
+However, I got this snippet from some discussion on #openocd, casting a little
+doubt on the cp210x family.....
 
 
 22:53 < felipebalbi> CareBear\: they could be using pl2303
