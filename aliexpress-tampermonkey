@@ -4,6 +4,7 @@
 // @version      0.1
 // @author       TheSeven
 // @include      http://*aliexpress.com/*
+// @include      http://*alibaba.com/wishlist*
 // @grant        none
 // ==/UserScript==
 
