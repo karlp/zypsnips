@@ -48,3 +48,7 @@ on norwegians:
 22:58 < Laurenceb_> he uses <<>> instead of ""
 22:58 < Laurenceb_> zyp confirmed as Brevik
 
+on code style:
+00:38 < anton02> the problem with correct indentation of code is that you have to interrupt your 
+                 train of thought about what you're actually doing in code.
+
