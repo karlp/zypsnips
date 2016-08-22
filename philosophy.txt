@@ -52,3 +52,6 @@ on code style:
 00:38 < anton02> the problem with correct indentation of code is that you have to interrupt your 
                  train of thought about what you're actually doing in code.
 
+on crossfit, no, vaping,
+18:10 < emeryth> just make the display show a blinking "I VAPE"
+
