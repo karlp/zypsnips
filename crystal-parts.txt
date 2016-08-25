@@ -1,7 +1,18 @@
+
+For tiny RTC crystals
+
 01:23 < dongs> FC-135 i used on teh dildo is tiny
 01:23 < dongs> (rtc xtal)
 01:23 < zyp> what's the usual footprint for SMT 32k crystals?
 01:24 < dongs> and that one is avialable a lot
 01:24 < zyp> ah, I'll go for that then
 01:24 < dongs> http://www5.epsondevice.com/en/quartz/product/crystal/tuning_fork/fc135.html
+
+For tiny HSE crystals
+
+10:44 < dongs> cheap 3225 ends at 12MHz, 24 and up can be 2016 package
+10:44 < dongs> 8MHz is available in 3225 but expensive as shit
+
+=> check with your ref man if you need bootloader support, but using a
+   12/24mhz crystal will be cheaper and smaller than 8mhz
 
