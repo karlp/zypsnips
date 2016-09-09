@@ -1,0 +1,4 @@
+logging to sd cards? be prepared to wait for up to 200ms for it to erase flash on slow pages
+might be down to 50ms on "good" cards, but be prepared!
+Example logging 3kB/s, with 8kB buffer space.
+https://github.com/PetteriAimonen/ebike-controller/blob/master/src/log_task.c
