@@ -21,6 +21,14 @@
 05:29 < dongs> nice stm32-related discussion there bros
 05:29 < dongs> gave up scrolling up to find something useful
 
+02:56 < R2COM> upgrdman but i do a lot of times wear adidas tracksuite
+02:57 < R2COM> pants at least
+02:57 < upgrdman> like italian mob boss?
+02:57 < R2COM> because its convenient
+02:57 < R2COM> long time ago i was wearing it a lot because if you suddenly get into some fight on street, its less of a problem if its teared that if it was expensive jeans
+
+
+
 On MISRA-C:
 04:13 < upgrdman> anyone know if theres an eclipse or visual studio plugin for checking MISRA C compliance?
 04:23 < dongs> not free, no
