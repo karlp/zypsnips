@@ -17,14 +17,15 @@ The common older style is 2x10, but in fatduino 2.54mm pitch.
 ### esden's choice: FTSH-105-01-L-DV-K   (SMT)
 not super cheap, (he gets from samtec directly) but it has partial 
 shrouding, only around the pins where the key on the cable goes, so it
-takes up a lot less space.  [Looks sorta like this]
-(http://elcodis.com/photos/27/91/279125/ftsh-120-01-l-dv-k.jpg)
+takes up a lot less space. 
+[Digikey partnumber SAM8799-ND](Or just http://www.digikey.com/product-search/en?keywords=SAM8799-ND)
 
-### Karl's choice:
-* 1175-1629-ND (smt)
-* 1175-1627-ND (pth)
+### aandrew's choice: (and other people)
+< aandrew> I use the standard everyday fucking used everywhere digikey 1175-1629-nd
+
+* [Digikey 1175-1629-ND (smt)](http://www.digikey.com/product-search/en?keywords=1175-1629-ND)
+* [Digikey 1175-1627-ND (pth)](http://www.digikey.com/product-search/en?keywords=1175-1627-ND)
 
 Much much much cheaper, but fully fully shrouded, so more board space.
-Also, he's never actually used them yet ;)
 
 
