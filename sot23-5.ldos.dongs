@@ -1,14 +1,15 @@
 SOT23-5 LDOs with standard pinout under $1
  
-MCP1824T-3302E/OT   6V max
-MCP1755-3302E   16V max, 300mA
-TLV70233DBVR        5.5V max
-PT7M8206B33TA5EX    5.5V max
-LDS3985M33R     6V max
-NCP4625HSN33T1G     10V max
-LDK130M33R      5.5V max
-SPX3819M5-L-3-3/TR  16V 500mA max
-LP2992AIM5-3.3/NOPB 16V max
+MCP1755-3302E   16V max, 300mA, 300mV, 300uA  
+MCP1824T-3302E/OT   6V max, 300mA, 200mV, 150uA
+MIC5504		300mA, 160mV, 42uA  << super cheap, great specs!
+TLV70233DBVR        5.5V max  300mA, 260mV, 370uA
+PT7M8206B33TA5EX    5.5V max 300mA, 270mV
+LDS3985M33R     6V max   (only 0.4mV dropout at 1mA load, 150mV at 300mA) (needs bypass)
+NCP4625HSN33T1G     10V max 300mA, 770mV (at 300mA)
+LDK130M33R      5.5V max 300mA 200mV   (needs bypass)
+SPX3819M5-L-3-3/TR  16V 500mA max, 340mV, real mA waste current!
+LP2992AIM5-3.3/NOPB 16V max, 250mA, 450mV, 1.5mA, not real cheap
 RT9193  5.5V max 300mA
 
 Original source:
