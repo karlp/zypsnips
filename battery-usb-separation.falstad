@@ -1,0 +1,33 @@
+model of using a pfet and a diode and a pulldown to separate VBus and VBattery with no
+appreciable voltage drop on Vbat, by sacrificing a diode drop on VBus.
+
+Common cheap alternative is just a schottkey vbat side, but that has a forward drop of the schottkey.
+
+Solution by zyp, with help from BrainDamage and goading from karlp
+
+Stick the below into http://falstad.com/circuit/circuitjs.html
+
+$ 1 0.000005 10.634267539816559 66 5 50
+r 320 112 320 272 0 40
+g 256 272 256 304 0
+v 80 256 80 112 0 0 40 5 0 0 0.5
+v 512 208 512 144 0 0 40 3.7 0 0 0.5
+f 368 176 368 112 1 1.5 2000
+w 80 272 240 272 0
+w 240 272 256 272 0
+s 160 112 256 112 0 1 false
+w 512 208 512 272 0
+w 512 272 368 272 0
+w 80 272 80 256 0
+w 512 112 512 144 0
+370 512 112 384 112 1 0
+370 80 112 160 112 1 0
+d 272 112 320 112 1 0.805904783
+w 272 112 256 112 0
+w 320 112 352 112 0
+w 368 176 256 176 0
+w 256 176 256 112 0
+w 320 272 368 272 0
+w 320 272 256 272 0
+r 256 176 256 272 0 10000
+
