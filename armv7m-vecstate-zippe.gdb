@@ -59,7 +59,7 @@ define vecstate
 			if $mmfsr & (1<<3)
 				printf " during exception return"
 			end
-			if $mmfsr & (1<<0)
+			if $mmfsr & (1<<1)
 				printf " during data access"
 			end
 			if $mmfsr & (1<<0)
