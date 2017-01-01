@@ -33,16 +33,19 @@ Much much much cheaper, but fully fully shrouded, so more board space.
 
 Some people occasionally espouse the virtues of tag-connect.  They are wrong.
 
-< aandrew> it looks great on paper
-< aandrew> and if you don't need retention clips (i.e. you aren't oing to be debugging with it or flashing 2GB flash via JTAG) it's actually not half bad for press down, flash, done
-< aandrew> but the second you need it to stay there you are drilling four gigantic fucking holes which completely eliminates the size advantage of it
-< aandrew> your other option is two smaller holes and a little clip that goes on the bottom, but that only works for about 10 hours or so before the metal starts bending and it no longer holds
-< aandrew> so you resort to wrapping the thing to the board with 30AWG like a spider wraps a fly
-< aandrew> which works until you need to take it off
-< aandrew> it's just fail
-
-< aandrew> you want to do debugging? gotta drill those fucking HUGE holes for retention 
-< aandrew> or use the clip on the bottom which works its way loose
-< aandrew> you want tiny footprint? use a fucking bed of nails and 4 test points. way smaller
-< aandrew> want to be frou-frou and have spring contacts on the cheap? Use something like isptouch for *way* cheaper
+< aandrew> 
+> it looks great on paper and if you don't need retention clips (i.e. you aren't oing to be debugging
+> with it or flashing 2GB flash via JTAG) it's actually not half bad for press down, flash, done
+> but the second you need it to stay there you are drilling four gigantic fucking holes which
+> completely eliminates the size advantage of it your other option is two smaller holes and a little
+> clip that goes on the bottom, but that only works for about 10 hours or so before the metal
+> starts bending and it no longer holds, so you resort to wrapping the thing to the board with 30AWG
+> like a spider wraps a fly. which works until you need to take it off
+> 
+> it's just fail
+>
+> you want to do debugging? gotta drill those fucking HUGE holes for retention 
+> or use the clip on the bottom which works its way loose
+> you want tiny footprint? use a fucking bed of nails and 4 test points. way smaller
+> want to be frou-frou and have spring contacts on the cheap? Use something like isptouch for *way* cheaper
 
