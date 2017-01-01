@@ -28,6 +28,12 @@ takes up a lot less space.
 
 Much much much cheaper, but fully fully shrouded, so more board space.
 
+### englishman's choice: (shrouds and keys are for l0sers)
+
+Note, this is actually _more_ expensive than the shrouded version above.
+
+[Digikey 609-3729-ND](http://www.digikey.com/product-detail/en/amphenol-fci/20021121-00010T4LF/609-3729-ND/2209075)
+
 
 ## Proprietary shit
 
