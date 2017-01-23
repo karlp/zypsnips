@@ -1,0 +1,9 @@
+10:37 < dongs> fuckkkkkkkkkkk
+10:37 < dongs> dual row qfn
+10:38 < zyp> fun
+10:38 < zyp> double the rows, double the awful
+10:38 < PeterM> i assume dual row WITH thermal pad too
+10:39 < dongs> with dual-row thermal pad even
+10:39 < PeterM> damn
+10:39 < jpa-> dual row qfn, the problems of bga, but without established procedures to cope with them
+
