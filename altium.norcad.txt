@@ -1,0 +1,11 @@
+artoocommie will always insist orcad is best true software.
+
+this file is for altium snippets you might not find in the manuals.....
+
+00:18 < dongs> i got schooled by some chinaguy in altidong symbol creation
+00:19 < kakimir> is it even possible?
+00:19 < dongs> makes one pin w/designator 0, copy, paste array to match pins, then opens schematic 
+               list and you can enter part names into spreadsheet-like thing and move to next pin 
+               w/enter
+00:22 < crt> chinaman good altium user don't pay license but good user
+
