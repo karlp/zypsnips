@@ -34,6 +34,10 @@ Note, this is actually _more_ expensive than the shrouded version above.
 
 [Digikey 609-3729-ND](http://www.digikey.com/product-detail/en/amphenol-fci/20021121-00010T4LF/609-3729-ND/2209075)
 
+### englishman's choice2: (shrouds appear to actually be useful)
+Right angle, shrouded.  For that low profile look.
+
+* [Digikey A115273-ND (smt)](http://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/5-104895-1/A115273-ND/2259789)
 
 ## Proprietary shit
 
