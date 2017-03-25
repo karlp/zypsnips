@@ -11,6 +11,13 @@ The common older style is 2x10, but in fatduino 2.54mm pitch.
 
 [Cable only](http://microcontrollershop.com/product_info.php?products_id=4517)
 
+## Adapters
+Helping clutter your desk and let you use two of your existing cables,
+for ultimate bigmessowires style.
+
+[20pin<->10pin with power options](https://www.oshpark.com/shared_projects/QoUhDy2L)
+
+
 
 ## Board headers
 
