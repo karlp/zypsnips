@@ -5,4 +5,4 @@ tectu got some stroop in the mother fucking mail y0
 
 englishman got some strip in the mother fucking mail y0
 [imgur](http://i.imgur.com/3GR79LW.jpg)
-[local](stroop-delivery-freedom.jpg)
+[local](stroop-delivery-englishman.jpg)
