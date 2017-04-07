@@ -12,6 +12,7 @@ SPX3819M5-L-3-3/TR  16V 500mA max, 340mV, real mA waste current!
 LP2992AIM5-3.3/NOPB 16V max, 250mA, 450mV, 1.5mA, not real cheap
 RT9193  5.5V max 300mA
 AP2112  6V max 600mA, 1000mV dropout! 55uA. 
+TPS709 30V input, 150mA, 1uA, (dropout linear with load)
 
 Original source:
 < dongs> http://bcas.tv/paste/results/gSlmgQ44.html
