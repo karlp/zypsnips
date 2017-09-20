@@ -1,0 +1,34 @@
+OMG, but my ps2 adapter makes my frame rate higher as well as lets me
+mash the wrong key faster with my dorito coated knuckles!
+
+21:21 < invzim> rs485 on end, usb hid on the other - so hardware is pretty simple
+21:21 < zyp> ah
+21:23 < zyp> well, HID isn't composite
+21:23 < invzim> if you need 3 separate keyboards it is, or was
+21:23 < zyp> true
+21:24 < invzim> hack to get around simultaneous key presses
+21:24 < zyp> wat, don't tell me you believe usb keyboards can't do more than 6?
+21:25 < invzim> used to be like that at least
+21:25 < zyp> no, it's never been like that.
+21:25 < invzim> yes it has :)
+21:25 < zyp> bullshit
+21:26 < invzim> I'll find out in a few weeks
+21:26 < invzim> tweak the descriptor?
+21:26 < invzim> I for sure didn't use a hacked and modified microchip usb stack for fun back then :)
+21:27 < zyp> there's a reason most keyboards have max six keys (plus modifiers), but it's not a limitation of 
+             USB or HID
+21:29 < zyp> invzim, there's two reasons for the 6-key limit
+21:30 < zyp> the first reason is that it's the «boot profile», which means it has a standardized report format 
+             so BIOS gets away without parsing the report descriptor, and device vendors are too lazy to 
+             implement switching
+21:30 < zyp> the HID spec have mechanisms for switching between boot profile and custom profile, but that 
+             requires extra work
+21:31 < zyp> the second reason is that keyboards are typically USB LS, and MPS on LS is 8 bytes, which is why 
+             the boot spec reports have two bytes for modifier bits and six bytes for a key array
+21:34 < zyp> for a gaming device it doesn't really make sense to implement boot profile at all
+21:34 < zyp> and if you want all keys to be able to be pressed at the same time, you might as well just make 
+             them all into a bitfield, instead of having an array large enough to fit all keys
+21:35 < zyp> both approaches are valid and work, I've tested both in practice
+21:36 < invzim> on xp & friends too?
+21:36 < zyp> yes
+
