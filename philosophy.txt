@@ -107,3 +107,15 @@ On operating systems, windows, mac, linux.... maybe...
 13:58 < dongs> stop wasting time with win10
 13:58 < dongs> its not gonna work
 
+on... philosphy?
+15:53 < vampi-the-frog> after all, STM32's are the superior microcontrollers uber alles
+15:54 < aandrew> absolutely
+15:54 < vampi-the-frog> and we should invade neighboring countries, I mean manufacturers
+15:54 < vampi-the-frog> the STM32 reich will last a thousand years
+15:54 < aandrew> we shall wage jihad against the NXPs and the weak Nuvotons of the world
+15:55 < aandrew> some will say "but sirs! are we all not of the same ISA? if you reset us, do we 
+                 not pull SP and PC from the vector table?"
+15:57 < aandrew> and I shall say "while this may be so, we are shaped by the licensee and through 
+                 this shaping we are separate. Through the poor documentation of your vendors we 
+                 draw our strength, and through solid distribution channels we prevail over you"
+
