@@ -1,0 +1,27 @@
+20:42 < Thorn> so here is a 5V ESD/TVS diode, standoff voltage 5V, breakdown 6...8V, worst case 
+               clamping voltage 8.7V. I tend do think e.g. a 5V-tolerant pin would be dead @ 8.7V. 
+               what do
+20:42 < Thorn> series resistor between it and the pin?
+20:43 < Thorn> 5V-tolerant STM32 pin
+20:43 < kakimir> it clamping voltage at rated current
+20:43 < kakimir> usually some current at least
+20:43 < kakimir> marked in datasheet
+20:44 < kakimir> voltage can get even higher
+20:44 < Thorn> it's at 1A. up to 30V @16A
+20:45 < kakimir> so it's pretty small
+20:58 -!- Gerritjan [~quassel@ip4da12a64.direct-adsl.nl] has quit [Remote host closed the connection]
+21:07 < PeterM> you gfot this on a power rail or jsut a gpio?
+21:07 < PeterM> if gpio fukken series resistor that shit
+21:07 < kakimir> yes
+21:08 < kakimir> both sides of TVS series resistor?
+21:08 < kakimir> gpio side only?
+21:08 < PeterM> either
+21:09 < kakimir> or both?
+21:09 < PeterM> p.much
+21:09 < kakimir> it's however you like it?
+21:10 < PeterM> it would be more effective on the input to the tvs 
+21:10 < PeterM> but it is still effective on the output to a large degree
+21:11 < kakimir> sometimes you can TVS the powerrail and then schottky them IOs to rail
+21:11 < kakimir> and series resistors to those schottkys
+21:11 < PeterM> i'd not do that
+

@@ -1,0 +1,11 @@
+15:20 < karlp> Steffanx: what's that literature source website? for freeing scientif papers?
+15:21 < PaulFertser> karlp: sci-hub.io
+15:21 < karlp> spasibe
+15:21 < BrainDamage> there's also library genesis and bookz
+15:23 < Kliment> libgen is the best source for textbooks and graduate-level technical books
+15:23 < karlp> more looking for ieee stuff right now actually
+15:23 < Kliment> bookz is kinda a mishmash of whatever got uploaded
+15:24 < Kliment> sci-hub is the go-to place for papers
+15:26 < Rob235> textbooks? where?
+15:26 < englishman> amazon.com
+

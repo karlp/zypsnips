@@ -1,0 +1,9 @@
+
+01:06  * Laurenceb_ worked on a work project to grab data from screen filmed by cameraphone
+01:07 < Laurenceb_> ended up using ffmpeg -> png screenshots at 5hz -> matlab
+01:07 < Laurenceb_> yes
+01:07 < Laurenceb_> it was write once
+01:07 < Laurenceb_> just got given 1TB of raw video, had to digitise all the monitors
+01:08 < Laurenceb_> line detect -> rectangle detect -> perspective transform -> ocr
+01:09 < Laurenceb_> using matlab cvlibs
+
