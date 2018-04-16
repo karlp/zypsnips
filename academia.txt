@@ -1,0 +1,5 @@
+Shit we have written, known about only.
+
+Laurenceb - stm32 based datalogger used.
+"Neonatal head and torso vibration exposure during inter-hospital transfer"
+http://journals.sagepub.com/doi/abs/10.1177/0954411916680235
