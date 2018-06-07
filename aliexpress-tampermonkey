@@ -1,34 +1,37 @@
 // ==UserScript==
 // @name         Improve AliExpress search
-// @namespace    
-// @version      0.1
+// @namespace
+// @version      0.3
 // @author       TheSeven
 // @include      http://*aliexpress.com/*
-// @include      http://*alibaba.com/wishlist*
+// @include      https://*aliexpress.com/*
 // @grant        none
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
 
-(function() {
+$(function() {
     'use strict';
     document.documentElement.addEventListener("selectstart", function(e){e.stopPropagation();}, true);
 
     var form = $("#narrow-form");
     if (!form.length) return;
-    var anchor = $("#isLocalReturn");
+    var anchor = $("#linkFreeShip");
     var input = $("input[name=isUnitPrice]");
     if (!input.length)
     {
+        form.find("input[name=SearchText]").val($("input[name=SearchText]").val());
         $("input[name=g]").val("n");
+        $("input[name=isFreeShip]").val("y");
         $("<input type='hidden'>").attr("name", "SortType").val("price_asc").insertBefore(anchor);
         $("<input type='hidden'>").attr("name", "isUnitPrice").val("y").insertBefore(anchor);
         form.submit();
     }
-    var link = $("<a href='javascript:;'>").addClass("filter-item").append($("<i>").addClass("check-icon")).append(" <span>Price per piece</span>").insertBefore(anchor);
+    var link = $("<a href='javascript:;'>").addClass("filter-item").append($("<i>").addClass("check-icon")).append(" <span>Price per piece</span>").insertAfter(anchor);
     if (input.val() == "y") link.addClass("selected");
     link.click(function(){input.val(input.val() == "y" ? "n" : "y"); link.toggleClass("selected"); form.submit();});
 
     var args = {};
-    window.location.search.substr(1).split('&').forEach(function(a)
+    window.location.search.substr(1).split("&").forEach(function(a)
     {
         var p = a.split("=");
         if (p.length == 2) args[p[0]] = decodeURIComponent(p[1]);
@@ -40,4 +43,4 @@
     div.append(" - ");
     div.append($("<input>").addClass("ui-textfield").addClass("ui-textfield-system").attr("id", "filter-quantity-to").attr("name", "maxQuantity").attr("autocomplete", "off").attr("placeholder", "max").val(args.maxQuantity));
     div.append(" ").append($("<a href='javascript:;'>").addClass("ui-button").addClass("narrow-go").append("OK").click(function(){form.submit();}));
-})();
+});
