@@ -86,3 +86,17 @@ factor to preserve corner freq
 00:30 < emeb> I put a 100k resistor in the path to the amp input
 00:30 < emeb> still very loud
 
+
+
+----- separately ----
+18:47 <BrainDamage> yes, you need a 12ax7 tube driven by 120V
+18:47 <kakimir> how many watts?
+18:47 <BrainDamage> encased in a 10kg block, for vibration dampening
+18:48 <BrainDamage> 3-6 for the filament, depending on the drive
+18:48 <BrainDamage> output will be few douzens mW, a hundred at best
+18:50 <kakimir> not enough
+18:51 <Steffanx> Just ask what crt would do. He's into amplification
+18:54 <BrainDamage> if you want super pro solution that no audiophile would ever approve, get an ADSL line driver
+18:54 <BrainDamage> their current capability, slew rate and distortion figures beat all headphone shit hands down
+18:54 <BrainDamage> and they cost 2$
+
