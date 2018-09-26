@@ -11,3 +11,5 @@
 RT9480 is basically a powerbank in a chip, LiPo charger, boost converter, battery gague. Pretty cheap too, possibly repurposable.
 
 BQ24600 is multi cell stepdown charger, good for up to 6 cells, no useless i2c etc. Quite a few external components etc, BUT datsheet example shows you everything you need, so if you have room its good to go.
+
+MCP73871 is a cheap, handy charging/powering auto selecting power path.
