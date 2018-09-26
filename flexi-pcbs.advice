@@ -1,0 +1,30 @@
+Kliment knows it...
+
+19:10 < Kliment> You need to send an assembly drawing if you need stiffeners inserted anywhere 
+                 (which you probably do if you're doing automated assembly of anything but the 
+                 smaller passives)
+19:11 < Kliment> Pay attention to bend radii in the flexing areas, avoid placing parts close to 
+                 bends
+19:12 < Kliment> use wide traces, try to keep assembly thickness constant, try to keep all traces 
+                 on one layer in bendy parts
+19:13 < Kliment> Traces on outside of bend if possible
+19:13 < Kliment> No vias in bends
+09:24 < Kliment> The dude that the pope named himself after
+09:25 < Kliment> ohsix: https://en.wikipedia.org/wiki/Francis_of_Assisi
+10:10 < karlp> Kliment: why traces on outside of bend? all the rest made sense to me.
+10:12 < Kliment> karlp: On the inside they have to bend to a tighter radius
+10:12 < Kliment> karlp: So they will fail earlier
+10:26 < karlp> Kliment: must be a tight bend for the thickness of the material to be that much of a 
+               difference in radius, butok, I thought there must be something more :)
+10:30 < Kliment> karlp: The recommended ratios for continuous bend are 100x thickness, so it makes 
+                 little difference there, but for bend-to-install with ratios of 10x-20x it gets 
+                 significant
+10:30 < Kliment> karlp: Also the bend is a bit smoother in the expansion zone than in the 
+                 compression zone
+10:31 < karlp> Kliment: aight, yeah, I was thinking of continuous bend. thanks for the tips!
+10:31 < Kliment> karlp: Copper fractures more easily when crumpled against a surface than when 
+                 stretched
+10:32 < Kliment> karlp: On that note, avoid changing thickness in bend zones
+10:33 < Kliment> karlp: This also means you should avoid any traces that don't run along the bend 
+                 direction
+
