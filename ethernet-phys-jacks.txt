@@ -29,5 +29,19 @@ dongs sez the lan8720 is readily available for ch33p in china, and
 claims only the usual bypass caps and 12.k RBIAS and that's it. sooo, perhaps emeb
 wasn't remembering correctly that day?
 
+Also, for phys, and also wrt to cheaping out on a lan8720a, and not using two crystals:
+3:58 <Thorn> dongs: LL_RCC_ConfigMCO(LL_RCC_MCO2SOURCE_HSE, LL_RCC_MCO2_DIV_1);
+13:58 <Thorn> 25 MHz HSE -> mco -> phy -> refclk -> mac
+14:13 <dongs> right
+14:13 <dongs> good shit
+14:13 <dongs> you've saved $0.20
+14:13 <dongs> we should file this under zypsnips
+14:14 <dongs> karlp: ^ last 2 Thorn lines, under "ethernet_phy_no_crystal.txt"
+14:16 <Thorn> section 3.7.4.2 REF_CLK Out Mode and fig. 3.9 in the datasheet
+14:17 <Thorn> which doesn't show the pulldown on LED2/nINTSEL which you need to enable this mode
+14:18 <Thorn> also sections 3.7.4 and 3.8.1.2
+14:19 <Thorn> fig 3.11 in 3.8.1.2 shows the resistor
+
+
 MACs:
 no, we aint recommending no 10meg spi mac+phy combos numbnuts.
