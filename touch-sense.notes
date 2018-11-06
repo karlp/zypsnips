@@ -1,0 +1,45 @@
+01:13:50           dongs | its very fun   
+01:13:59        emeb_mac | used the HAL driver?
+01:14:03           dongs | also simpler than other (atmel) impl cuz it doessnt need a cap per each sense thing
+01:14:08           dongs | well, i ported HAL to stdperiph haha
+01:14:14        emeb_mac | hrhr
+01:14:30        emeb_mac | anything special to do on layout?
+01:14:47    Laurenceb123 | the instructions are awful
+01:14:53           dongs | nope! i followed the appnotes about track clearance / ground plane clearance and
+                         | shit just worked
+01:14:55    Laurenceb123 | weird mesh ground plane
+01:15:10           dongs | that didnt seem to have a lot of effect actually
+01:15:15           dongs | whether its mesh or whatever stuff.
+01:15:22        emeb_mac | OK - will study that appnote
+01:15:25           dongs | actually wait, i did do one with F3 as well
+01:15:41           dongs | F0 was a toy/proof of concept and on f3 i did it wiht backlit leds in center of  
+                         | buttons
+01:15:44        emeb_mac | seems f0 and f3 are about the same
+
+
+01:16:54           dongs | https://i.imgur.com/8o2yvxq.png this is in my TSC appnote folder
+
+
+01:27:20           dongs | the way I did sample was interrupt + state machine in systick. main() starts
+                         | sampling w/IT, once it gets EOA flag in TSC_IRQ, i set a flag for systick + set
+                         | state to read touch groups, once systick hits it reads those and sets state to
+                         | discharge, ticks until discharge done, then clears sampledone flag and re-starts
+                         | sampling.
+01:41:15             crt | good work
+01:42:52        emeb_mac | makes sense. systick is where I always do all my UI stuff for debounce, encoders,
+                         | etc.   
+01:42:58             crt | https://usercontent.irccloud-cdn.com/file/jnQ42OeG/IMG_1832.JPG
+01:43:27        emeb_mac | and TSC_IRQ is the only sensible thing - polling something so slow would be silly
+01:44:50           dongs | yea, and you need to discharge before the next measurement cycle, thats why the
+                         | states in systick
+01:44:58           dongs | measure -> read -> discharge -> repeat
+
+
+
+02:04:34           dongs | before going with ST i also did atmel capsense wiht AT42QT1110
+02:04:39           dongs | worked as well but felt super filthy
+02:04:43           dongs | i think there's an avr inside of that shit
+02:04:57           dongs | cuz it had a bunch of retarded restrictions like "spi speed of 4mhz" or someshit
+02:07:34         aandrew | lol
+02:07:38         aandrew | "felt super filthy"
+
