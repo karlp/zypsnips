@@ -1,0 +1,8 @@
+13:43 < dekar> I think I've dumped this here before, but just in case I didn't. It's a thread-safe circular 
+               buffer lib that supports zero-copy operation for use with DMA: 
+               https://github.com/EliasOenal/etools/blob/master/ecbuff.h
+13:43 < dekar> Flexible configuration: https://github.com/EliasOenal/etools/blob/master/ecbuff_cfg.h
+13:43 < dekar> Also public domain, so use however you like.
+13:47 < dekar> We've used it for several projects and I consider it stable and well tested.
+
+
