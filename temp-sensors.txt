@@ -1,0 +1,36 @@
+oh yeah, the internal temp sensors...
+
+gotchas:
+* wrong calibration field addresses
+* errata about calib being wrong (L1)
+* not calibrating
+* not calibrating with vref
+* not using a long enough sample time
+
+
+Someone's stdperiphlib source:
+uint16_t meas_int_adc(int chan)
+{
+        ADC_RegularChannelConfig(ADC1, chan, 1, ADC_SampleTime_384Cycles);
+        ADC_SoftwareStartConv(ADC1);
+        while (ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) != SET)
+                ;
+        return ADC_GetConversionValue(ADC1);
+}
+
+
+static inline int32_t meas_vref(void)
+{
+        uint32_t vref = *(uint16_t*)0x1FF80078; /* Factory-measured internal
+reference for 3.00V ext. Vref
+ */
+        return 300*vref / meas_int_adc(ADC_Channel_Vrefint) + 2;
+}
+
+uint16_t meas_int_temp(void)
+{
+        return (110 - 25) *
+                (meas_int_adc(ADC_Channel_TempSensor)*meas_vref()/300 -
+*(uint16_t*)0x1FF8007A) /
+                (*(uint16_t*)0x1FF8007E - *(uint16_t*)0x1FF8007A) + 25;
+}
