@@ -1,0 +1,52 @@
+14:39 <emeb_mac> did a product last year that used some of those cheapo 320x240 ILI93xx displays. Now we're seeing about 1% failure rate in the field.
+14:39 <emeb_mac> things will run find for a few hundred hours then the display goes white and nothing will fix.
+14:39 <dongs> who caresa bout aliesxpress or eastrising display
+14:39 <dongs> its all about gooddisplay these days
+14:40 <Thorn> it has a clock pin and all
+14:40 <dongs> emeb_mac: !
+14:40 <dongs> its your startup/init timing
+14:40 <dongs> had same shit on 9314
+14:40 <dongs> SPI
+14:40 <dongs> or wahever 93..something
+14:41 <dongs> power on timing vs beginning of commands/resetr stuff
+14:41 <emeb_mac> dongs: interesting
+14:41 <emeb_mac> marginal - only some units affected?
+14:41 <dongs> yes
+14:41 <emeb_mac> so just delay time?
+14:42 <dongs> 9341 is the shit i used
+14:42 <dongs> youre using it in spi mdoe?
+14:44 <emeb_mac> yes
+14:45 <dongs> there's initia lreset timing where you fuck around wiht setting mdoe, then theres delay after reset, and then there's delay before you can write init stuff to it
+14:45 <dongs> and there's delay after exit sleep and befoer display on
+14:45 <emeb_mac> so between mode set and rest of cmds
+14:46 <dongs> i ahve 200ms there on mine, then i have 120 after sleep out before dispaly on and 120 after dispalyo n
+14:46 <emeb_mac> ok - will look at that.
+14:46 <dongs> original said something like 50ms
+14:46 <dongs> after set mode
+14:46 <emeb_mac> ah
+14:46 <dongs> which didnt work worth a fuck / was random
+14:46 <emeb_mac> ok - thx for tip
+14:46 <dongs> try out and see
+14:49 <emeb_mac> dongs: thx - customer has some bad units. will give it a shot
+14:51 <dongs> cool. 
+14:51 <dongs> our problem with ILI shit is mostly garbage supplier
+14:51 <dongs> a few end up with a single vertical line with stuck color
+14:51 <dongs> bad soldering on the TFT>chip or wahteve shti
+14:51 <dongs> but never the white stuff, thats been fixed with timing shit
+14:54 <emeb_mac> dongs: ok - looked at my codes - has 50ms delay between exit sleep & display on, then  10ms after display on 
+14:54 <emeb_mac> so will enlarge that delay
+14:55 <dongs> yeah, and 200ms after mode set?
+14:55 <dongs> iirc i also fucked with that number.
+14:56 <Thorn> what is going on in that display that makes it require such huge delays
+14:56 <Thorn> 10000µF caps charging?
+14:56 <emeb_mac> lol - I don't even know which command is mode set
+14:58 <dongs> its when y ou fuck wiht res/cs to set spi mode
+14:58 <dongs> before sendign any commands
+14:59 <emeb_mac> dongs: interesting - my code (ganked from somewhere - not fully original) only does a reset. no messing w cs
+15:00 <dongs> whats the finaly delay after reset goes high?
+15:00 <emeb_mac> 10ms 
+15:00 <dongs> bump that to 200
+15:00 <emeb_mac> kk
+15:01 <dongs> before sending commands.
+15:01 <emeb_mac> easy
+
