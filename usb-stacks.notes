@@ -1,2 +1,14 @@
 this has a completely standalone, gpl one...
 https://github.com/gl-sergei/chopstx/blob/master/example-cdc/usb-cdc.c
+
+libopencm3 has one
+https://github.com/libopencm3/libopencm3/
+
+cubemx/keil/iar/blah probably/presumaby has one
+
+mbed does _not_ have one.  (they have a bullshit communit legacy one, maybe, but nothing they maintain)
+
+laks has one
+https://cgit.jvnv.net/laks/
+
+there are others.  chopstz is at the top purely by dint of being crazy and weird, not best or most widely supported. just so that's clear.
