@@ -1,0 +1,4 @@
+20:11 < jpa-> inca_: ((void(*)())0)()
+20:12 < jpa-> that should result in   Hardfault: Precise bus fault, reason: fingernail 
+              clippings mixed with C code
+
