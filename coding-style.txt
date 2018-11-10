@@ -1,0 +1,11 @@
+tabs vs space is one thing, but jpa really knows how to find the path less trodden.
+
+17:54 <dongs> keil configuration: save source files as utf8, enable white space display, set all tabs to spaces. nothign else to touch.
+17:54 <qyx_> fukin tabs as spaces
+17:54 <dongs> fuck tabs
+17:54 <dongs> every jew has their own idea of what tabsize is
+17:54 <qyx_> thats the feature
+17:58 <jpa-> i indent first code level with \u2006, second with \u2005, third with \u2004 etc.
+17:58 <jpa-> saves space compared to using multiple characters
+
+
