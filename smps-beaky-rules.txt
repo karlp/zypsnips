@@ -1,3 +1,19 @@
+Build your own SMPS using a mcu?
+
+05:16 <PeterM> i dunno the obsession with mcu controlled dc-dc
+05:17 <dongs> SAVE COSTS
+05:18 <PeterM> 0/10
+05:19 <englishman> increase costs
+05:19 <englishman> AND complexity
+05:19 <englishman> those guys at TI and LT have NO idea what they are doing!
+05:19 <PeterM> increase dev time, increase dev costs, reduce reliability
+05:19 <dongs> yep thats the spirit
+05:19 <PeterM> sounds like a plan
+05:19 <dongs> fuck those big name guys
+05:20 <dongs> they are dumb
+05:20 <dongs> i will save money wiht stm32
+
+
 
 So, you've got ripple on your smps?  And you're scoping it how?
 (Oh, you do know about capacitor derating on dc bias right?)
