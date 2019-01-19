@@ -43,3 +43,30 @@ http://de.aliexpress.com/store/407105
 09:07:11            dongs | any stock tehy have is likely oxidized to fuck
 09:07:36            dongs | swpa is there so looks good
 
+## inductors, how do they work...
+
+15:52 <PeterM> rajkostoso like how do you find specs on those chink inductors?
+15:52 <rajkosto> PeterM, i dont
+15:52 <Steffanx> what will it be then specing?
+15:53 <rajkosto> just type in 47uh inductor and get 12x12x7 one
+15:53 <PeterM> so what good is a 47uh inducctor that could saturate at 1ma?
+15:53 <PeterM> because you dont know the spec
+15:53 <rajkosto> they are good enough at that size
+15:53 <specing> Steffanx: Ada
+15:53 <rajkosto> the chinks use them themselves
+15:53 <PeterM> good enough for what?
+15:53 <rajkosto> dc2dc
+15:54 <PeterM> ...
+15:54 <rajkosto> current rating comes from the wire thickness
+15:54 <rajkosto> and at that size they have thick wire
+15:54 <PeterM> bro
+15:54 <PeterM> dude
+15:54 <PeterM> man
+15:54 <PeterM> mate
+15:54 <PeterM> cunt
+15:54 <rajkosto> oi
+15:54 <PeterM> thats not how inductors work
+5:57 <BrainDamage> currrent rating is wire thickness only if the core is not lossy
+15:57 <BrainDamage> spoiler: at high freq cores are pretty lossy
+
+
