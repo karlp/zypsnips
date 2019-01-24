@@ -29,6 +29,10 @@ Semtech's excellent banner ad, featuring greenwire.
 
 -------------------
 
+Lattice has green(red) wire in their MICROSD-ADP-EVN adapater board
+https://eu.mouser.com/images/lattice/lrg/MICROSD-ADP-EVN_SPL.jpg
+-------------------
+
 zyp: http://bin.jvnv.net/f/XJfyF.JPG
 zyp: https://bin.jvnv.net/file/onqan.jpg
 10:39 <zyp> today's fun: https://bin.jvnv.net/file/6n9NM.jpg
