@@ -1,0 +1,8 @@
+
+It comes up often enough that people want to do some (de)compression on 
+a "constrained" host like an stm32.
+
+https://github.com/atomicobject/heatshrink is channel approved by multiple users.
+
+2:45 <jpa-> Thorn: i reimplemented deflate for one work project, it doesn't need much ram to do for small window sizes, but existing implementations are quite ram-heavy
+
