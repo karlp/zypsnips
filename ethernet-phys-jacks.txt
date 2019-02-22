@@ -8,6 +8,15 @@ gxti:
 01:35 < dongs> they're fucking everywehre
 01:36 < gxti> they're in ur beagleboner
 
+(likely superseded by the HR913550A, as per ..
+https://lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors_Zhongshan-HanRun-Elec-HR913550A_C163507.html
+
+09:24 <dongs> chinagirl confirmed, its the most common magjack in chian
+09:24 <dongs> not gonna run out anytime soon
+09:24 <dongs> so youre one-off prototype isnt gonna suffer from lack of stock, autism-maru
+(TBD: check footprint of 913550a)
+
+
 
 PHYs:
 qyx: ksz8031rnl (Micrel) (small, cheap, nice)
