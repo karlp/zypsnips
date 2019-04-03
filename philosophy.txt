@@ -138,3 +138,13 @@ audiophools more
 01:48 < emeb> lol.
 01:48 < emeb> audiophools can jump in a lake.
 
+
+On experience (and the joys of early stm32s)
+18:20 <con3> wish I started 8.5 years ago
+18:21 <Steffanx> wut, you were like 11 when you did that?
+18:21 <jpa-> so that you would have had chance to experience texane/stlink, stdperiphlib and F1 GPIO config?
+18:21 <Steffanx> stm32f100 \o/
+18:21 <Steffanx> Whopping 24mhz
+18:21 <con3> well just would have had more experience, shit feels like an up hill battle rn
+18:22 <jpa-> trust me, it would have been more so back then :P
+
