@@ -7,5 +7,8 @@ tabs vs space is one thing, but jpa really knows how to find the path less trodd
 17:54 <qyx_> thats the feature
 17:58 <jpa-> i indent first code level with \u2006, second with \u2005, third with \u2004 etc.
 17:58 <jpa-> saves space compared to using multiple characters
+18:12 <aandrew> dongs: whyt he fuck would you get rid of tabs
+18:12 <aandrew> are you some kind of python apologist
+18:13 <jpa-> because spaces are for people that want shit to just work
 
 
