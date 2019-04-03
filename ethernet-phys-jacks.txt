@@ -1,7 +1,10 @@
 Jacks:
 qyx: RJHSE-338X (Amphenol)
     x = 0 (no leds) x = something else, different led colours
-gxti:
+(Entire RJHSE series is cheap, many options)
+
+Magjacks:
+gxti: Pulse J00-0045NL ($5 or more!)
     http://www.digikey.com/product-search/en?keywords=553-1619-5-ND
 01:35 < gxti> you can get compatible ones from china if you're super cheap
 01:35 < dongs> HR911105A
