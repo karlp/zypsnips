@@ -8,7 +8,7 @@
 
 
 
-7:20 <fenugrec> ho hey, free shipping at Arrow
+17:20 <fenugrec> ho hey, free shipping at Arrow
 17:22 <zyp> do they actually ship though?
 17:25 <Steffanx> englishman knows.
 17:40 <englishman> they are the AOL Free Month CD of shipping
@@ -17,4 +17,7 @@
 17:41 <englishman> half will come from dutchland
 17:41 <englishman> half will come from Verical and arrow will know nothing about the shipment whatsoever
 17:41 <englishman> order from digikey at the same time, by the time you get all your parts from arrow your product will be in the market place and you'll be developing the 2nd gen product
+
+
+19:29:46       Steffanx | just order from arrow and you'll get the 2 items in 3 packages.
 
