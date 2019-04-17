@@ -68,3 +68,14 @@ Some people occasionally espouse the virtues of tag-connect.  They are wrong.
 > you want tiny footprint? use a fucking bed of nails and 4 test points. way smaller
 > want to be frou-frou and have spring contacts on the cheap? Use something like isptouch for *way* cheaper
 
+(much later, someone though this was arrogant legacy thinking.... and then...)
+
+21:12:28    @englishman | aandrew: the tag-connect arrived and everyone hates it including me
+21:12:31    @englishman | what a stupid device
+21:15:30         jadew` | englishman, what's wrong with it?
+21:15:40    @englishman | it's a solution looking for a problem
+21:16:06       Steffanx | Werent you all into tagconnect?
+21:16:15    @englishman | yeah then i actually tried it
+21:16:28    @englishman | troll fail
+
+
