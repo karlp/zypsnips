@@ -1,0 +1,19 @@
+01:21 <specing> I opened LCSC to pick a switch for the reset button, but I got overwhelmed with choice
+01:22 <specing> What do you people use? A standard THT tactile switch?
+01:22 <dongs> specing: skqgabe010
+01:22 <dongs> https://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKQG/SKQGABE010.html
+01:22 <dongs> chinaclones are like $0.10 for 100
+01:22 <specing> dongs: it looks strange https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKQGABE010_5-2-5-2-1-5-1-57N_C115351.html
+01:23 <dongs> no it doesnt
+01:23 <dongs> click 2nd pic
+01:23 <dongs> for some reason butt pic is teh first one
+01:23 <specing> Ah I was looking at its butt
+01:23 <dongs> its your normal chinese tactile button thingy
+01:23 <specing> pervert me
+01:23 <dongs> https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1107ST-A4SW-06_C118141.html is also common
+01:24 <dongs> https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html
+01:24 <dongs> ah there's chinaclones of the alps
+01:24 <dongs> yeah thats the one with $0.02 for 20 haha
+01:25 <specing> Thank you dongs 
+01:25 <dongs> https://lcsc.com/product-detail/Tactile-Switches_4-4-1-7-Plastic-head_C10852.html even cheaper!
+
