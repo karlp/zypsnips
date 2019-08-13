@@ -22,3 +22,41 @@ ebay link has been working since at least when I copied it off a blog dated
 May June 2016
 http://www.ebay.com/itm/181396498298?_trksid=p2060353.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT
 http://mzstblog.blogspot.is/2016/05/micro-usb-vertical-legs-eagle-footprint.html
+
+
+USB-C is teh futahhh!
+
+03:57 <dongs> chinese USB-C socket without highspeed lanes delivers
+03:57 <dongs> good quality, and works as advertised
+03:58 <dongs> https://i.imgur.com/8Nohqfs.jpg
+04:03 <salcedo> what is it
+04:06 <dongs> a usb-c connector
+04:06 <dongs> on a pcb
+04:06 <dongs> takes up about as much space as microusb and my stuff is in 2019
+04:06 <dongs> instead of 2009
+04:07 <salcedo> usb-c is 2019? say waaaa?
+04:07 <dongs> yeah, waht USB socket are YOU placing on your boards in 2019?
+04:08 <salcedo> just made a usb-a pads on pcb footprint
+04:09 <salcedo> to plug the pcb right into the usb port
+04:09 <dongs> disgusting but has its purpose
+04:09 <salcedo> i don't see type A going anywhere soon
+04:30 <Thorn> dongs: what chip did you use for pd?
+04:38 <dongs> hmm? no PD on here
+04:38 <dongs> just 5.1K to ground on both CCs
+04:38 <dongs> my shit is a sink, not source (in this board)
+04:38 <dongs> so i dont realyl carea bout PD negotiation too much
+05:42 <invzim> Cracki: jadew thanks for input regarding enclosure
+05:46 <invzim> dongs: got part#/source for that usb-c?
+05:48 <invzim> still have no usb-c stuff in my house, but guess it's the future of things..
+05:49 <dongs> invzim: chiense thing. sec
+05:49 <dongs> U262-16XN-4BVC11
+05:51 <dongs> i also emailed sales@xkb and got a 3d model for it in like 10 minsd
+05:53 <dongs> its on LCSC, tons of stock elsewhere in china etc.
+05:54 <dongs> a good part if you wanna do PD because it has everyting except 4 highspeed lanes
+05:54 <dongs> so it has cc, sbu, usb2 and vbus/gnd
+05:55 --> Haohmaru (~Haohmaru@195.24.53.110) has joined ##stm32
+05:55 <invzim> https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U262-16XN-4BVC11_C319148.html
+05:56 <invzim> would be this one I guess?
+05:57 <invzim> yah
+05:59 <invzim> seems like a ton of gotchas with usb-c, when even rpi4 got it wrong
+
