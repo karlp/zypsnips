@@ -11,4 +11,7 @@ mbed does _not_ have one.  (they have a bullshit communit legacy one, maybe, but
 laks has one
 https://cgit.jvnv.net/laks/
 
+thorn has one
+https://github.com/pthorn/cortexm-usb-driver
+
 there are others.  chopstz is at the top purely by dint of being crazy and weird, not best or most widely supported. just so that's clear.
