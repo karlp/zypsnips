@@ -60,3 +60,21 @@ USB-C is teh futahhh!
 05:57 <invzim> yah
 05:59 <invzim> seems like a ton of gotchas with usb-c, when even rpi4 got it wrong
 
+
+06:53:33         dongs | time to give up using that amphenol USB.
+06:53:42         dongs | china made their own clones that are like 10x cheaper
+U254-051T-4BH23-S2B on lcsc
+08:29 <karlp> is that U254-051T-4BH23-S2B footprint compatible with the amphenol one?
+08:29 <dongs> almost
+08:29 <dongs> its like 0.1mm +- in places
+
+04:25 <dongs> the chinese clone usb arrived
+04:25 <dongs> lets see how it works inside standard footprint
+04:29 <dongs> damn nice
+04:29 <dongs> it fits into the FCI footprint
+04:34 <dongs> karlp: the new one is 10118194-0001LF
+04:35 <dongs> and chinaclone version is U254-051T-4BH23-S2B
+04:35 <dongs> on lcsc as https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U254-051T-4BH23-S2B_C319164.html
+04:36 <dongs> https://lcsc.com/product-detail/totally_not_scam_C10418.html and this is same, compatible footprint
+
+
