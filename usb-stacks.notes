@@ -10,6 +10,7 @@ mbed does _not_ have one.  (they have a bullshit communit legacy one, maybe, but
 
 laks has one
 https://cgit.jvnv.net/laks/
+catphish converted this to c at https://github.com/catphish/amiga-floppy/blob/master/usb.c
 
 thorn has one
 https://github.com/pthorn/cortexm-usb-driver
