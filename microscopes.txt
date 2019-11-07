@@ -10,3 +10,15 @@ http://media1.allnumis.com/314/09-02-2012/5-bani-2012_314_03842763cf37e51fL.jpg
 03:03 < jadew> the message was "Blowjob?" (only 4 letters in romanian :P)
 03:04 < jadew> the answer was no...
 
+
+jpa has a ADSM-201 (~130 on banggood and friends)
+https://www.youtube.com/watch?v=7mJ6vfdPjXE
+6:51 <jpa-> karlp: not sure if it appears as USB device at all, it has hdmi out and usb for power; that video i recorded on SD card while watching on the small screen
+16:51 <jpa-> Steffanx: more like babbys first bga stress
+16:52 <jpa-> karlp: yeah, the gold ring rotates for focus
+16:53 <jpa-> karlp: it's an ok microscope and image quality on external HDMI display is great, but it's kind of shame that the built-in display has 320x240 px resolution only - one would think there would be some higher resolution mobile phone displays available
+6:53 <karlp> jpa-: the pics imply it has a usb-mini-b port ont he screen s well? is that the power one? I thought from the pics it was powered by a usb cable to the base?
+16:54 <jpa-> karlp: yeah, it came with two cables, the base one only powers the leds
+16:54 <jpa-> i've modded mine so that there is usb connector in the base so that i can connect the screen to that
+16:55 <jpa-> (the screen/microscope part can be taken out and used with any kind of base)
+
