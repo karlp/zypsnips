@@ -77,4 +77,9 @@ U254-051T-4BH23-S2B on lcsc
 04:35 <dongs> on lcsc as https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U254-051T-4BH23-S2B_C319164.html
 04:36 <dongs> https://lcsc.com/product-detail/totally_not_scam_C10418.html and this is same, compatible footprint
 
+Moah love.
+01:45:31       dongs | https://lcsc.com/product-detail/USB-Connectors_XKB-U262-16XN-4BVC11_C319148.html
+01:46:22       dongs | its paste in pad stuff man
+01:46:36       dongs | ive used that footprint in production boards, tehres no manual soldering
+01:46:43       dongs | paste over the PTH holes and done
 
