@@ -83,3 +83,12 @@ Moah love.
 01:46:36       dongs | ive used that footprint in production boards, tehres no manual soldering
 01:46:43       dongs | paste over the PTH holes and done
 
+
+
+
+## Power switches
+https://lcsc.com/product-detail/Others_Anpec-Elec-APL3511CBI-TRG_C351147.html
+05:06 <dongs> yes that usb switch is legit
+05:06 <dongs> using it now
+05:07 <dongs> have done smoke test
+
