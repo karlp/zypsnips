@@ -56,3 +56,19 @@ great either), or that IRLM for p
 03:00 < PeterM> i dont mind the ao3400/3407 for n and pfet, china has them super cheap
 03:01 < dongs> nice rdson too
 
+
+https://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN1R2-25YL115/1727-4277-1-ND/2122739
+20:20:15         qyx | psmn1R2 not an option?
+20:21:51         qyx | bitmask: or just select something from the psmn series, they are super-low-Rdson
+20:22:07         qyx | they are going from 0.7mohm up
+20:22:14         qyx | and not very expensive
+20:22:15     bitmask | I see, look good, so just need one of em then?
+20:22:23     bitmask | wow they are cheap
+20:22:24         qyx | depends on your pcb
+20:22:29     specing | huh, 0.7 mohm?
+20:22:30     bitmask | i'll throw two on
+20:23:06         qyx | I am using them as load switches, battery disconnects, e-fuses, etc.
+20:23:22         qyx | ie. for slow switching applications
+20:23:24     bitmask | yea im using them as battery disconnects
+20:23:37     bitmask | thanks for the tip, these are nice
+
