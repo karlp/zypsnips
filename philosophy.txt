@@ -148,3 +148,21 @@ On experience (and the joys of early stm32s)
 18:21 <con3> well just would have had more experience, shit feels like an up hill battle rn
 18:22 <jpa-> trust me, it would have been more so back then :P
 
+On PWM rates required
+11:24:23         qyx | you can switch your signals at 20GHz
+11:24:48         qyx | to avoid LED flickering while PWMing
+11:26:39      doomba | was using 12Ghz but the flicker was still noticable.
+11:26:45           * | doomba snorts another line
+11:27:25         qyx | jadew` is pro on multi-GHz flicker-less LED driving
+11:27:30         qyx | he knows FETs
+11:36:46  Ultrasauce | the eye can only see 30 GHz
+11:41:22   Mangy_Dog | wait what
+11:41:32   Mangy_Dog | youre seeing led flicker in the ghz range!?
+11:41:49   Mangy_Dog | is this a joke?
+11:41:58  Ultrasauce | absolutely serious
+11:42:22   Mangy_Dog | i dont think you are!?
+11:42:46  Ultrasauce | think harder
+11:42:55   Mangy_Dog | you certainly shouldnt be seeing flicker at 1ghz even with a moving led....
+11:44:01  Ultrasauce | you can avoid the flicker if you synchronize it to your brain's clock signal
+
+
