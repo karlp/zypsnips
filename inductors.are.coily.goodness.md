@@ -2,6 +2,7 @@
 http://de.aliexpress.com/store/407105
 
 ## package sizes
+```
 20:12 < perole> can someone school me on small smd inductor packages/part#?
 20:12 < perole> a lot of them have CDxxx names
 20:13 < karlp> what's the real question?
@@ -24,10 +25,11 @@ http://de.aliexpress.com/store/407105
 20:23 < qyx> (3225 is metric, 1206/0805 imperial)
 20:23 < qyx> such mess
 20:24 < qyx> eof.
+```
 
 
 ## more small inductor sizes
-
+```
 08:27:03           invzim | dongs: got a fav inductor for the tiny switchers?
 09:01:34            dongs | https://www.zerohedge.com/news/2018-04-05/i-just-discovered-i-owe-irs-50k-i-dont-have-because-i-traded-cryptos
 09:01:40            dongs | invzim: SWPA3010
@@ -42,9 +44,10 @@ http://de.aliexpress.com/store/407105
 09:07:04            dongs | and its been out of production for years
 09:07:11            dongs | any stock tehy have is likely oxidized to fuck
 09:07:36            dongs | swpa is there so looks good
+```
 
 ## inductors, how do they work...
-
+```
 15:52 <PeterM> rajkostoso like how do you find specs on those chink inductors?
 15:52 <rajkosto> PeterM, i dont
 15:52 <Steffanx> what will it be then specing?
@@ -68,5 +71,4 @@ http://de.aliexpress.com/store/407105
 15:54 <PeterM> thats not how inductors work
 5:57 <BrainDamage> currrent rating is wire thickness only if the core is not lossy
 15:57 <BrainDamage> spoiler: at high freq cores are pretty lossy
-
-
+```
