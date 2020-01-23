@@ -1,0 +1,17 @@
+15:58 <qyx> is this legit? https://i.stack.imgur.com/Ag4JL.png
+15:58 <qyx> reverse polarity and OV protection
+16:11 <fenugrec> qyx, bss84 max Vgs probably +-20V, so VIN>20V will kill it
+16:22 <aandrew> qyx: that's what I use
+16:22 <aandrew> that's out of an ST app note
+16:22 <aandrew> er no, a cypress dev board
+16:23 <aandrew> M1 and M3 need to be sized for full power, and the value of R1 is really dependent on the switching characteristics of M4 so you need to test across temperature
+16:37 <karlp> what voltage do you choose for the zener?
+16:37 <karlp> the exact overvoltage limit you want? or something else
+16:41 <qyx> fenugrec: I know, thats only a generic circuit I found on interwebs
+16:43 <qyx> aandrew: great
+16:44 <qyx> I am not sure what happens if the voltage is increasing slowly under load
+16:44 <qyx> M3 might not survive the linear region
+16:46 <aandrew> karlp: well the idea is when the voltage across the zener reaches Vz it will start ot clamp and then the gate that it is connected to will start to turn on, causing the bigger mosfet to shut off
+16:47 <aandrew> so you need select Vz and the resistors so that the mosfet starts to open up at the right voltage for you
+16:56 <BrainDamage> zener off: Vs = Vin, Vg=Vin, Vs-Vg = 0 -> mos off, zener on: Vs = vin, Vg = Vz, Vs-Vg=Vin-Vz, if Vin-Vz>Vgs mos on, so the condition can also be written as Vin>Vgz+Vz
+
