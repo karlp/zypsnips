@@ -1,0 +1,14 @@
+https://e2e.ti.com/support/interface/f/138/t/512449?Type-C-Connector-Layout-Made-easy
+
+also 
+(referring to something else)
+16:34 <jpa-> what an annoying pinout
+16:35 <jpa-> https://www.digikey.com/product-detail/en/gct/USB4110-GF-A/2073-USB4110-GF-A-2-ND/10384547   something like this the routing is pretty trivial and with the extra benefit you can get the D+/D- in either other out of the connector
+16:39 <jpa-> yeah, and by trivial routing i mean something like  https://jpa.kapsi.fi/stuff/pix/usbc.png
+
+17:13:33          Thorn | why do you need a connector with all pins anyway? there're 2.0 only
+                        | connectors like https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterpris
+                        | e-U262-161N-4BVC11_C319148.pdf
+17:14:18          Thorn | they only have 1 row of smd contacts
+17:15:06          karlp | and like the one jpa linked.
+
