@@ -1,0 +1,7 @@
+or lack thereof...
+
+
+05:59:27        emeb_mac | Gah - client just had a 2nd production run of an F7-based product and it won't run at the maximum rated 216MHz like the 1st run did.
+06:00:00        emeb_mac | ST seems to be having trouble making F7s that meet the speed spec.
+06:02:05        emeb_mac | I complained a few weeks ago - they told me "F7s only run at 200MHz with external DRAM" - I pointed out that I wasn't using external DRAM and they clammed up.
+
