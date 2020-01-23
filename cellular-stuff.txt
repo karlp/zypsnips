@@ -1,0 +1,8 @@
+05:46 <dongs> whats a common chinasocket for micro sim
+05:56 <dongs> https://lcsc.com/product-detail/Connector-Card-Sockets_Korean-Hroparts-Elec-SIM-01A_C99403.html this has the msot stock on lcsc
+05:56 <dongs> wonder what its a cloen of
+05:56 <dongs> to get 3d model
+06:01 <dongs> https://gct.co/connector/digi-key/sim7200
+06:01 <dongs> nice 3d model
+06:24 <dongs> footprint fits too
+
