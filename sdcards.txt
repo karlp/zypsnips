@@ -3,9 +3,8 @@ might be down to 50ms on "good" cards, but be prepared!
 Example logging 3kB/s, with 8kB buffer space.
 https://github.com/PetteriAimonen/ebike-controller/blob/master/src/log_task.c
 
-o
 
-0:28 <qyx> karlp: https://i.imgur.com/lB8jf6K.png
+00:28 <qyx> karlp: https://i.imgur.com/lB8jf6K.png
 00:28 <qyx> the pcie stuff
 00:28 <qyx> octavo bga in the middle
 00:29 <karlp> nice, sexy
@@ -15,12 +14,14 @@ o
 00:30 <dongs> you should use the chink standard one
 00:30 <qyx> I have some attends selected
 00:30 <qyx> which one is that
-00:30 <karlp> what's sw1? is that to touch the casing or somethign? ro insertion detection?
-00:31 <qyx> no, front micro-sd boot enable
-00:31 <qyx> just a dip switch
 00:31 <dongs> they're called TF-02 or something in china and are a clone of https://gct.co/files/drawings/mem2055.pdf
-
-
+00:31 <dongs> (i used that 3d model to match
+00:32 <qyx> yeah but those are standard push-push
+00:32 <dongs> yeah?
+00:32 <dongs> is your trash one of those flip top things
+00:32 <qyx> i require something which allows me to use 2mm thick front panel + 1mm or so gap
+00:32 <qyx> I would be unable to push that thing
+00:32 <qyx> without tweezers or whatever
 00:52 <dongs> https://lcsc.com/product-detail/Card-Sockets-Connectors_SOFNG-TF-015_C113206.html anyway that's the standard chinaclone uSD pushpull thing
 00:53 <dongs> https://lcsc.com/product-detail/Card-Sockets-Connectors_XKB-Enterprise-XKTF-0803-0_C381083.html ah this is the side entry molex clone
 00:56 <dongs> https://lcsc.com/product-detail/Card-Sockets-Connectors_Korean-Hroparts-Elec-TF-01A_C91145.html hm looks same footprint
