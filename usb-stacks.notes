@@ -16,3 +16,12 @@ thorn has one
 https://github.com/pthorn/cortexm-usb-driver
 
 there are others.  chopstz is at the top purely by dint of being crazy and weird, not best or most widely supported. just so that's clear.
+
+
+
+On _using_ usb, this is at least hilarious:
+18:09:37       dongs | so im having trouble with winusb pushing 100mbit bulk transfers
+18:09:46       dongs | with libusb/winusb backend
+18:09:49       dongs | works fine in lunix tho :L(
+18:09:53       dongs | this is annoying
+
