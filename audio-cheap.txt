@@ -86,6 +86,10 @@ factor to preserve corner freq
 00:30 < emeb> I put a 100k resistor in the path to the amp input
 00:30 < emeb> still very loud
 
+--- "later still" ---
+22:00 <emeb> karlp: heh - that PAM8301 mentioned in the zypsnips is kinda weaksauce. I've tried to use it to drive cheap 8ohm speakers and it distorts badly at any usable volume.
+
+
 
 
 ----- separately ----
