@@ -92,3 +92,32 @@ https://lcsc.com/product-detail/Others_Anpec-Elec-APL3511CBI-TRG_C351147.html
 05:06 <dongs> using it now
 05:07 <dongs> have done smoke test
 
+
+
+
+12:08:13             zyp | dongs, what's your favorite usb-c socket?
+12:24:37           dongs | 3.0 or 2.0?
+12:25:11             zyp | only need the usb2 signals for now
+12:25:17           dongs | 2.0 with cc/sbu: U262-16XN-4BVC11
+12:26:13           dongs | full 3.0 : R-S13KG-03
+12:27:31             zyp | the latter is standard footprint?
+12:27:37           dongs | yep
+12:27:40           dongs | clone of someshit
+12:27:50           dongs | but like, the 'clone' is more available everywhere so
+12:27:55             zyp | I think I've seen that hybrid pth/smt before
+12:29:09           dongs | is similar style to minidp
+12:29:11           dongs | that i use
+12:30:05           dongs | anyway i emailed chinksthat manufacture it and they actualyl sent me 3d model for it
+12:30:08           dongs | so..
+12:30:14             zyp | nice
+12:30:21             zyp | got a 3d model for the usb2 only one?
+12:30:30           dongs | same, they emailed. lemme find
+12:31:21           dongs | timecop.mine.nu/U262-16XN-4BVC11.zip
+12:31:33             zyp | nice, thanks
+12:31:41           dongs | lemme know when to delete  
+12:31:47             zyp | downloaded
+12:32:16           dongs | i used the fullsize one to make about 10k portable chargers before i discovered the reduced
+                         | one with only cc/sbu
+12:32:32           dongs | there's even more reduced version with 9? or someshit pins but its missing either USB or CC
+12:32:41           dongs | only useful for PD
+
