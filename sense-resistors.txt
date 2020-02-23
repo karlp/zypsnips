@@ -1,0 +1,17 @@
+12:06 < jpa-> if more than 1 mohm, just put it in your pad layout and it'll be fine
+12:07 < kakimir> put what where?
+12:07 < jpa-> http://www.analog.com/library/analogDialogue/archives/46-06/shunt_resistors.html
+12:08 < jpa-> http://www.ti.com/ods/images/SNVS829C/30191552.png   even just this works pretty well
+12:08 < dongs> nice
+12:08 < dongs> fake pattern?
+12:08 < dongs> or rather, shunt pattern and then just draw traces from under it?
+12:08 < kakimir> hmm
+12:08 < jpa-> dongs: yeah
+12:08 < kakimir> interestings
+12:08 < dongs> pro
+12:09 < kakimir> how about those shunts with seperate pads for sense?
+12:10 < dongs> i can understand why you dont wanna make footprints
+12:10 < dongs> cuz its so hard to do in kikecad
+12:10 < kakimir> I said nothing about that
+12:10 < jpa-> they are nice if you need high accuracy low shunts without needing to calibrate; but at that point you usually don't mind it costing a bit extra
+
