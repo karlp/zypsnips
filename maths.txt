@@ -1,0 +1,21 @@
+14:01 <mawk> I solved a cubic equation at work
+14:01 <mawk> never thought that would be useful
+14:01 <jpa-> manually?
+14:01 <mawk> yes
+14:01 <jpa-> meh :)
+14:02 <mawk> to derive the analytical expression
+14:02 <jpa-> i'd only bother up to quadratic manually, symbolic calculation for everything more than that
+14:02 <jpa-> maxima and similar work well
+14:02 <PaulFertser> You have no math ambitions jpa- ;)
+14:02 <mawk> I use sage for symbolic stuff because I'm poor
+14:02 <mawk> but it's often not helpful
+14:02 <jpa-> maxima is free :P
+14:03 <mawk> I should try
+14:03 <jpa-> ah, sagemath uses maxima
+14:03 <jpa-> PaulFertser: that is probably true, but i'll try to claim that i focus my math ambitions on higher understanding rather than routine work!
+14:04 <jpa-> .. that is, changing places of + and - signs until stuff works correctly
+
+
+14:19:27     englishman | this is engineering, marketing sells 3.1415 but only has the budget for pi=3
+14:19:47           jpa- | and the computation actually needs tau
+
