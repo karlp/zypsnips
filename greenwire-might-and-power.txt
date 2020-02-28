@@ -41,3 +41,5 @@ zyp: https://bin.jvnv.net/file/onqan.jpg
 PaulFertser: http://paulfertser.info/files/useless_buzzfix/03-post_rework.jpg
 
 dongs: https://i.imgur.com/wkPKZKV.jpg -> dongs | https://i.imgur.com/wkPKZKV.jpg r8 my repair
+
+jpa: http://jpa.kapsi.fi/stuff/pix/lga14.jpg
