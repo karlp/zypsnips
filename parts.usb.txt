@@ -121,3 +121,22 @@ https://lcsc.com/product-detail/Others_Anpec-Elec-APL3511CBI-TRG_C351147.html
 12:32:32           dongs | there's even more reduced version with 9? or someshit pins but its missing either USB or CC
 12:32:41           dongs | only useful for PD
 
+
+
+## USB-A receptacles (usb pins are _always_ same, differences are in mounting pegs)
+You can get fancy, but _alll_ of these have matching footprints, so use one of them hey?
+Cheapest digikey
+stewart SS-52100  (13.14mm at 2.71mm offset)
+Onshore USB-A1HSxx are 13.14 / 2.71
+amphenol UE27AC54100 13.14 / 2.71  (2.3m holes)
+Adam tech USB-A-S-RA  (13.14 / 2.71)
+Assman AU-Y1005 (13.14 / 2.71
+Connfly DS1095 13.14 / 2.71
+
+Cheapest china:
+jing C42628 yes, 13.14 / 2.71 (2.1mm holes, not 2.3 normal, but fine) (JTJ USB-AF)
+jing c42643 - yes, 13.14 / 2.71 (2.3mm holes like "normal")  (JTJ USB-AF-04
+jing c42665 - yes, 13.14 / 2.71 (JTJ USB-AF-01
+sofng usb 302 - yes? 13.14 / 2.75 (recommends slots, better for all really)
+jing c2345 - no. 14 / 2.71 JTJ USB-AF-08 (included as it's _the_ cheapest china)
+
