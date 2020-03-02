@@ -137,6 +137,10 @@ Cheapest china:
 jing C42628 yes, 13.14 / 2.71 (2.1mm holes, not 2.3 normal, but fine) (JTJ USB-AF)
 jing c42643 - yes, 13.14 / 2.71 (2.3mm holes like "normal")  (JTJ USB-AF-04
 jing c42665 - yes, 13.14 / 2.71 (JTJ USB-AF-01
-sofng usb 302 - yes? 13.14 / 2.75 (recommends slots, better for all really)
-jing c2345 - no. 14 / 2.71 JTJ USB-AF-08 (included as it's _the_ cheapest china)
+sofng usb 302T - yes? 13.14 / 2.75 (recommends slots, better for all really)
+jing c2345 - NO. 14 / 2.71 JTJ USB-AF-08 (included as it's _the_ cheapest china)
+shou han AF 90° WJDG - yes 13.14 / 2.71
+shou han AF 90° ZJWG - yes 13.14 / 2.71
+Shenzen cankemang U-USBAR04P-F002 - yes 13.14 / 2.71
+
 
