@@ -72,10 +72,14 @@ U254-051T-4BH23-S2B on lcsc
 04:25 <dongs> lets see how it works inside standard footprint
 04:29 <dongs> damn nice
 04:29 <dongs> it fits into the FCI footprint
+(old: 10103594-0001LF
 04:34 <dongs> karlp: the new one is 10118194-0001LF
 04:35 <dongs> and chinaclone version is U254-051T-4BH23-S2B
 04:35 <dongs> on lcsc as https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U254-051T-4BH23-S2B_C319164.html
 04:36 <dongs> https://lcsc.com/product-detail/totally_not_scam_C10418.html and this is same, compatible footprint
+Karl's notes: the jing (c10418) and xkb will fit in the 10118194-0001LF footprint, but not vice versa!
+              the new 10118194-0001LF will _not_ fit in the "old" footprint, (rear pegs rotated 90°)
+
 
 Moah love.
 01:45:31       dongs | https://lcsc.com/product-detail/USB-Connectors_XKB-U262-16XN-4BVC11_C319148.html
