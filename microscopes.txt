@@ -22,3 +22,34 @@ https://www.youtube.com/watch?v=7mJ6vfdPjXE
 16:54 <jpa-> i've modded mine so that there is usb connector in the base so that i can connect the screen to that
 16:55 <jpa-> (the screen/microscope part can be taken out and used with any kind of base)
 
+
+Later.
+01:09 <englishman> cheap binocular thing from microscopenet and a 0.5x to increase working distance, also brings it up to a comfortable height to use while seated
+01:09 <zyp> the thing I don't like about magnifiers/microscopes is how they fuck with depth perception
+01:10 <englishman> tbh I don't know how I worked on stuff before it. it's so comfortable, bright and easy to use
+01:10 <fenugrec> englishman, so around 10x total mag ? (eyepiece 10, typical lens x2, adapter 0.5)
+01:10 <englishman> let me check
+01:11 <fenugrec> I used one a while ago enough to get used to it, I kinda miss the comfortable seating and bionic vision. No idea what kind of setup it was
+01:11 <englishman> 1 x 0.5X Auxiliary Objective Lens for Stereo Microscope D48mm (AJ6D5AUX1) = US$48.99
+01:11 <englishman> 1 x OMAX 6.7X-45X Simal-focal Stereo Microscope on Articulated Stand with 144 LED Light and 9.0MP Camera (W43DF1-L144L-C90U) = US$959.99
+01:11 <englishman> the camera was junk
+01:12 <fenugrec> Saw tons of OMAX on ebay, assumed they were cheap garbage but 900 ain't cheap
+01:12 <englishman> so total 3.2x - 23x
+01:13 <englishman> most of the time hovering around 3-10x id guess
+01:14 <fenugrec> interesting. Do the fumes make a mess on the lens or do you have ventilation ?
+01:14 <englishman> the camera and even the trinocular version isn't necessary. the light is necessary and the boom stand is very handy though can shake a little if there is something vibrating or your floor typically shakes when a truck goes by
+01:14 <englishman> never had a problem with fumes
+01:14 <englishman> never cleaned it
+01:17 <aandrew> fenugrec: I have an 8yo now (wow time flies) amscope trinocular inspection scope 0.4...3.something? with the x10wf eyepieces
+01:18 <aandrew> strata: yeah I'm fantastically nearsighted too, although in the last year I find I can no longer counteract my eyeglasses when looking up close, I am constantly taking the fucking things off and on
+01:21 <aandrew> I recently added a barlow lens to it so it gives me more space to work
+01:21 <fenugrec> aandrew, what sort of working distance before/after ?
+01:22 <fenugrec> depends on zoom I guess
+01:22 <aandrew> yeah camera/trinoc is not useful, but if you insist don't use a shitty usb webcam, way too much lag
+01:22 <aandrew> I don't remember to be honest. "enough" in both cases, but with the barlow lens I get antoher 2-3 inches I'd say
+01:22 <aandrew> I used it for 7 years without the barlow lens
+01:23 <aandrew> no real issues, but yes high zoom and dense boards was getting a little cramped when I had scope probes and soldering stuff in there
+
+Ultrasauce:
+amscope SM-4TPZ
+
