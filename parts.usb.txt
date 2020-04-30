@@ -54,6 +54,7 @@ USB-C is teh futahhh!
 05:53 <dongs> its on LCSC, tons of stock elsewhere in china etc.
 05:54 <dongs> a good part if you wanna do PD because it has everyting except 4 highspeed lanes
 05:54 <dongs> so it has cc, sbu, usb2 and vbus/gnd
+later: this is also https://www.digikey.com/product-detail/en/gct/USB4105-GF-A/2073-USB4105-GF-ACT-ND/11198510
 05:55 --> Haohmaru (~Haohmaru@195.24.53.110) has joined ##stm32
 05:55 <invzim> https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U262-16XN-4BVC11_C319148.html
 05:56 <invzim> would be this one I guess?
