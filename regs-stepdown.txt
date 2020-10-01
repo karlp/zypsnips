@@ -26,3 +26,6 @@ scrts: MP28128, (2.7-6Vin, 2.5A output, 1.5Mhz)
 
 qyx suggested L5973D, http://www.st.com/web/catalog/sense_power/FM142/CL1854/SC1575/PF63225
 but fuck that, way too many external parts...
+
+qyx stopped using L5973D, using TPS54240 instead (3.5V to 42V, 2.5A, low Iq)
+TPS62175 (28V, 0.5A, low Iq, low part count)
