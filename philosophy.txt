@@ -166,3 +166,10 @@ On PWM rates required
 11:44:01  Ultrasauce | you can avoid the flicker if you synchronize it to your brain's clock signal
 
 
+On Alarm clocks:
+22:16:36     kakimir | I made alarm clock out of beer
+22:16:46     kakimir | I drank the beer
+22:17:21     kakimir | so around 7AM I have full bladder
+22:17:49     kakimir | it sends signals to my brain and makes me uncomfortable
+22:17:57     kakimir | so that I cannot sleep any longer
+
