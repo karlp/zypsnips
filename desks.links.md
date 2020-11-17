@@ -15,7 +15,8 @@ leeloominai: https://www.flickr.com/photos/100017731@N03/24655172365
 <catphish> i have a regular office, but my desk is cool - https://i.imgur.com/N4GBxQH.jpg
 karlp (2020) https://nc.beeroclock.net/s/YXBAatR9jiazoJ6
 qyx: https://bin.jvnv.net/file/ZFsGJ.jpg
-     
+fenugrec: bench: https://ibb.co/5LjPyv6
+          desk:  https://ibb.co/d64x8Ds
 
 upgrdman at work: http://imgur.com/a/jAfEp
 upgrdman at home: http://farrellf.com/temp/monitors.jpg
