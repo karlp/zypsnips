@@ -1,25 +1,39 @@
-zyp: http://bin.jvnv.net/f/rRYHp.JPG
-     http://bin.jvnv.net/f/shhqo.JPG
-     http://bin.jvnv.net/f/oinyZ.JPG
-     https://bin.jvnv.net/file/wwqFK.jpg
-zyp new: <zyp> https://bin.jvnv.net/file/ltuT0.jpg <- here's how my lab workplace looks
-crt: http://i.imgur.com/bUVnDLQ.jpg
-kakimir: https://drive.google.com/file/d/0B2GcdpJiNGfKQjhpb1dldnhpdW8/view
-< k\o\w> https://goo.gl/photos/72bx3qC8GvcL7yAAA
-< jpa-> http://koti.kapsi.fi/jpa/stuff/pix/P1010615.JPG
-later:  https://jpa.kapsi.fi/stuff/pix/7probes2scopes.jpg
-< dongs> http://i.imgur.com/cpiDLLz.jpg
-leeloominai: https://www.flickr.com/photos/100017731@N03/24655172365
-< jadew> http://188.25.249.79/stuff/desk2.jpg
-< englishman> http://i.imgur.com/VVaObwt.jpg
-<catphish> i have a regular office, but my desk is cool - https://i.imgur.com/N4GBxQH.jpg
-karlp (2020) https://nc.beeroclock.net/s/YXBAatR9jiazoJ6
-qyx: https://bin.jvnv.net/file/ZFsGJ.jpg
-fenugrec: bench: https://ibb.co/5LjPyv6
-          desk:  https://ibb.co/d64x8Ds
-
-upgrdman at work: http://imgur.com/a/jAfEp
-upgrdman at home: http://farrellf.com/temp/monitors.jpg
-
-aandrew's west-is-best-v2.0: https://imgur.com/a/CQaxK4
-aandrew's hotel warrior: https://imgur.com/a/L7aPFVA
+- zyp
+    - http://bin.jvnv.net/f/rRYHp.JPG
+    - http://bin.jvnv.net/f/shhqo.JPG
+    - http://bin.jvnv.net/f/oinyZ.JPG
+    - https://bin.jvnv.net/file/wwqFK.jpg
+ - zyp new
+    - < zyp> https://bin.jvnv.net/file/ltuT0.jpg <- here's how my lab workplace looks
+ - crt
+     - http://i.imgur.com/bUVnDLQ.jpg
+ - kakimir
+     - https://drive.google.com/file/d/0B2GcdpJiNGfKQjhpb1dldnhpdW8/view
+ - < k\o\w>
+     - https://goo.gl/photos/72bx3qC8GvcL7yAAA
+- < jpa->
+     - http://koti.kapsi.fi/jpa/stuff/pix/P1010615.JPG
+     - later:  https://jpa.kapsi.fi/stuff/pix/7probes2scopes.jpg
+- < dongs>
+     - http://i.imgur.com/cpiDLLz.jpg
+- leeloominai
+     - https://www.flickr.com/photos/100017731@N03/24655172365
+- < jadew>
+     - (busted, sorry) http://188.25.249.79/stuff/desk2.jpg
+- < englishman>
+     - http://i.imgur.com/VVaObwt.jpg
+- < catphish>
+     - i have a regular office, but my desk is cool - https://i.imgur.com/N4GBxQH.jpg
+- karlp
+     - (2020) https://nc.beeroclock.net/s/YXBAatR9jiazoJ6
+- qyx
+     - https://bin.jvnv.net/file/ZFsGJ.jpg
+- fenugrec
+     - bench: https://ibb.co/5LjPyv6
+     - desk:  https://ibb.co/d64x8Ds
+- upgrdman
+     - work: http://imgur.com/a/jAfEp
+     - home: http://farrellf.com/temp/monitors.jpg
+- aandrew
+     - west-is-best-v2.0: https://imgur.com/a/CQaxK4
+     - hotel warrior: https://imgur.com/a/L7aPFVA
