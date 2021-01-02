@@ -104,3 +104,8 @@ factor to preserve corner freq
 18:54 <BrainDamage> their current capability, slew rate and distortion figures beat all headphone shit hands down
 18:54 <BrainDamage> and they cost 2$
 
+-- testing audio --
+20:20 <emeb> Chasing down low level audio noise in my bench-top development setup. Discovered that the STLink V3 mini that I was using generates a lot of broadband audio noise.
+20:20 <emeb> Just hooking the GND pins of the SWD connector causes loud "shhhhhhhhhh".
+20:21 <emeb> but using the STLink V2.1 on an old Nucleo board is quiet.
+
