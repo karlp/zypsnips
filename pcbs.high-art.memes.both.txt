@@ -3,3 +3,8 @@
 http://i.imgur.com/AsuEwCg.jpg (See also "fabhouse rules")
 
 http://i.imgur.com/ITmzgHd.jpg
+
+
+22:36 <qyx> I am experiencing difficulties while increasing pcb density
+22:36 <qyx> there is no free space left for vias
+

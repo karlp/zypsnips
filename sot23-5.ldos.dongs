@@ -10,10 +10,14 @@ NCP4625HSN33T1G     10V max 300mA, 770mV (at 300mA)
 LDK130M33R      5.5V max 300mA 200mV   (needs bypass)
 SPX3819M5-L-3-3/TR  16V 500mA max, 340mV, real mA waste current!
 LP2992AIM5-3.3/NOPB 16V max, 250mA, 450mV, 1.5mA, not real cheap
-RT9193  5.5V max 300mA
+RT9193  5.5V max 300mA, ~200mV, 90uA
 AP2112  6V max 600mA, 1000mV dropout! 55uA. 
 TPS709 30V input, 150mA, 1uA, (dropout linear with load)
 TCR2EF  5.5v max 200mA, 150mV dropout, vlow noise, 35uA
 
 Original source:
 < dongs> http://bcas.tv/paste/results/gSlmgQ44.html
+
+
+Oh, you meant the _other_ standard footprint?
+ST730 28V, 300mA, ~50uA (Iq linear with load) (dropout linear with load)
