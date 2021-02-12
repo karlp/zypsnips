@@ -2,11 +2,12 @@ Jacks:
 qyx: RJHSE-338X (Amphenol)
     x = 0 (no leds) x = something else, different led colours
 (Entire RJHSE series is cheap, many options)
+12:48 <qyx> ethernet transformrs with standard footprint are available china-wide
+12:49 <qyx> and RJHSE-* parts are compatible with china RJ45 sockets
+12:49 <qyx> so I am using those two
+
 
 Magjacks:
-gxti: Pulse J00-0045NL ($5 or more!)
-    http://www.digikey.com/product-search/en?keywords=553-1619-5-ND
-01:35 < gxti> you can get compatible ones from china if you're super cheap
 01:35 < dongs> HR911105A
 01:35 < dongs> they're fucking everywehre
 01:36 < gxti> they're in ur beagleboner
@@ -17,6 +18,10 @@ https://lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors_Zhongshan
 09:24 <dongs> chinagirl confirmed, its the most common magjack in chian
 09:24 <dongs> not gonna run out anytime soon
 09:24 <dongs> so youre one-off prototype isnt gonna suffer from lack of stock, autism-maru
+
+Western, pin compatible with HR911105A and friends:
+* Bel Stewart SI-60182-F
+* Bel Stewart SI-60062-f  (This is already in kicad libraries)
 
 
 
