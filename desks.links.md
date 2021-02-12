@@ -5,6 +5,7 @@
     - https://bin.jvnv.net/file/wwqFK.jpg
  - zyp new
     - < zyp> https://bin.jvnv.net/file/ltuT0.jpg <- here's how my lab workplace looks
+    - hmm, I haven't done a desk update in a while, I think desk is sufficiently messy now https://bin.jvnv.net/file/C8UoB.jpg
  - crt
      - http://i.imgur.com/bUVnDLQ.jpg
  - kakimir
