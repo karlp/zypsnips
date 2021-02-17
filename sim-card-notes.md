@@ -24,7 +24,8 @@ It also has clones available. (likely more, at least these from lcsc)
 * SOFNG SMO-014
 * XUNPU SMC-214
 
-TE style is also the cheapest, by a decent margin, even on digikey.
+TE style is also the cheapest, by a decent margin, even on digikey, and is well
+stocked everywhere on octopart.
 
 ### The "12.63" format, CD on the outside.
 I'm not sure who the original design is here.  Comes in 6 pin and 8 pin versions.
@@ -35,22 +36,22 @@ I've named this for the vertial spacing between the mounting pads.
 Much smaller keepout than the TE style, and generally "nicer" but, like that matters
 to IRC professionals...
 
-Available from digikey as:
+Available from digikey as: (none of these are well stocked)
 * GCT SIM7100-6-1-15-00-A  (6 pin)
 * GCT SIM7100-8-1-15-00-A  (8 pin)
 * ADAM Tech MSCCP-D-06-SG-SW-T/R (6 pin)
 * ADAM Tech MSCCP-D-08-SG-SW-T/R (8 pin)
 
 Also available from lcsc as:
+* XKB XKSIM-1511B-P9 (8+CD) - great stock
+* XKB XKSIM-003-P7 (6+CD)
 * SOFNG SMO-1511B -P6 (... 6 pin, duh)
 * SOFNG SMO-1511B -P8 (yes. as many pins as you think it does)
-* XKB XKSIM-003-P7 (6+CD)
-* XKB XKSIM-115B-P9 (8+CD)
-
 
 ### The "Molex" 
 Stand out features, three mounting pads on each side, and very small,
 1mm pitch, 0.5mm square pads.
+The molex is well stocked on octopart, as well as lcsc.
 
 * Molex SD-503960-xxxx (numbers here seem to be materials for different portions)
 * SOFNG SMO-1510 
