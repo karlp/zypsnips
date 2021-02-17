@@ -12,6 +12,8 @@ Based on Original research, karlp, Feb 2021.
 
 You have a choice of three readily available footprints, and a variety of single vendor options.
 
+![](microsim-footprint-shootout.png)
+
 ### "TE" style.
 This is use by the TE 2822541.  It's readily available on digikey _and_ lcsc.
 It's a kinda _gross_ pinout, with a large keepout, and small fiddly pads, but, 
