@@ -59,6 +59,7 @@ Stand out features, three mounting pads on each side, and very small,
 Fairly similar to the "Molex" but slightly bigger pads everywhere.
 Still 1mm pitch though, you could _maybe_ make them work together?
 *Be careful*, not all amphenol parts use this footprint.
+Also, there's virtually zero stock of this, so, yay, multi vendor, but not really relevant.
 
 * Amphenol G85B2x10xB1HR.
 * SOFNG SMO-1507-P8
