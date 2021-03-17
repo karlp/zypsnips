@@ -18,6 +18,15 @@ or
 (gdb) kgraph *(state.adc_buff)@actual_count start_samp
 
 Or any array of digits really.... start_samp is the zero point to use
+
+kgraph _requires_ 
+```
+set print elements 0
+set print array-indexes off
+```
+As it's parsing the string representation to load the values.  This was
+a workaround for the gdb/python interface when this was written, in 2014/15
+but could hopefully be replaced with something more API oriented these days.
 """
 
 class Utils:
