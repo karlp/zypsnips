@@ -13,7 +13,8 @@ LP2992AIM5-3.3/NOPB 16V max, 250mA, 450mV, 1.5mA, not real cheap
 RT9193  5.5V max 300mA, ~200mV, 90uA
 AP2112  6V max 600mA, 1000mV dropout! 55uA. 
 TPS709 30V input, 150mA, 1uA, (dropout linear with load)
-TCR2EF  5.5v max 200mA, 150mV dropout, vlow noise, 35uA
+TCR2EF  5.5v max 200mA, 150mV dropout, vlow noise: 35uV, 35uA
+TPS7A20 6V, 300mA, vlow noise: 7uV, 7uA
 
 Original source:
 < dongs> http://bcas.tv/paste/results/gSlmgQ44.html
