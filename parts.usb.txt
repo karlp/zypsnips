@@ -149,3 +149,6 @@ shou han AF 90° ZJWG - yes 13.14 / 2.71
 Shenzen cankemang U-USBAR04P-F002 - yes 13.14 / 2.71
 
 
+USB-C pulldowns:
+07:29 <jpa-> nice thing is that 5.1k +- 10% is ok for 4.7k +- 1%, so no need to have separate BOM line
+
