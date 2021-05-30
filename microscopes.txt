@@ -56,3 +56,48 @@ amscope SM-4TPZ
 03:07 <Ultrasauce> in my experience it has proven perfectly suitable for both smt rework and getting lost in the surface of roughly sawn wood while on drugs
 
 
+
+Later again:
+14:43 <zyp> okay, so what's the shit if I want a microscope?
+14:49 <englishman> i really like these OMAX trinocular
+14:49 <englishman> with 0.5x barlow so you have a good working distance and can sit with good posture
+14:49  * antto gives zyp a "Dear Santa, ..." template letter
+14:50 <englishman> without the barlow it's a 6.7x - 45x, divide that by two. that magnification range is plenty for electronics
+14:50 <englishman> add a good adjustable LED ring light on that, trinocular attachment for if you want to add a camera eventually
+14:51 <englishman> total with stand should be like $1k
+14:51 <zyp> yeah, I figure I absolutely want a trinocular one, not spending money on something shittier
+14:51 <englishman> https://omaxmicroscope.com/stereo-microscopes/zoom-trinocular/7x-45x-professional-zoom-boom-stand-trinocular-stereo-microscope.html
+14:52 <englishman> add barlow, light, and change the stand if you want. i have a big boom stand, it's less stable than a stand like that but more versatile
+14:52 <zyp> I've been picking at some 1.6x1.6mm qfns today, even the alignment dot is annoying to see 
+14:53 <englishman> actually that $1k includes some awful $300 usb camera that i never use
+14:53 <englishman> https://omaxmicroscope.com/stereo-microscopes/zoom-trinocular/7x-45x-zoom-trinocular-stereo-microscope-on-articulating-arm-post-stand.html
+14:53 <englishman> i have a boom like that one
+14:53 <zyp> yeah, that looks nice
+14:54 <englishman> i made a little adapter to attach my sony SLR and use that if i want a camera attached
+14:54 <zyp> I was also thinking about that
+14:54 <englishman> https://www.youtube.com/watch?v=EXlJemfR4rA
+14:54 <englishman> example video
+14:55 <qyx> 16:52 < zyp> I've been picking at some 1.6x1.6mm qfns today, even the alignment dot is annoying to see 
+14:55 <qyx> TPS62825 spotted
+14:55 <englishman> another https://www.youtube.com/watch?v=eEaKtezfFVI
+14:56 <zyp> qyx, no, SLG46811V
+14:57 <zyp> and also SLG46582V, but that's 2x3mm
+14:59 <Steffanx> Got this one ages back.. its fine https://nl.aliexpress.com/item/32880372287.html but it was cheaper back then
+14:59 <Steffanx> and i want that arm englishman has now :P
+15:00 <Steffanx> yeah, aliexpress has something, but > $100 shipping. meh
+15:14 <zyp> englishman, so you've got a kit like this? https://omaxmicroscope.com/7x-45x-9-0mp-digital-zoom-trinocular-stereo-microscope-on-articulating-arm-stand-with-144-led-light-1708.html
+15:16 <englishman> yep looks exactly the same except for maybe the camera
+15:16 <englishman> and the 0.5x addon
+15:20 <qyx> I can see a java app
+16:36 <aandrew> zyp: oh you got a much nicer arm than me, but my microscope head is identical
+16:37 <zyp> not me, I was just looking at what I should consider getting
+16:38 <aandrew> I added a 0.7x barlow lens and I have a much better camera than that, but very rarely use it
+16:38 <aandrew> I've got a little basler HD industrial video camera on the trinocular port
+16:52 <aandrew> I find USB (2.0) cameras have too much lag for me. Haven't tried a USB 3 one though
+17:00 <jpa-> https://eleshop.eu/szm7045nt-stl2.html   i've considered these, but too expensive for me :)
+17:02 <jpa-> cheaper than that omax stuff though
+17:07 <aandrew> jpa-: that's exactly what my amscope looks like. EUR$500 is approximately what I paid too (USD$700) over a decade ago
+17:07 <englishman> looks identical
+17:08 <aandrew> the barlow lens is well worth it, the 40x zoom with the 10x eyepiece lens was just stupidly close to be of any real use, with the 0.7x barlow I use a lot more of the zoom range
+17:09 <aandrew> I can slice and swap two 5mil traces 5mil apart without it on full zoom which is about as fine detail as I need 
+
