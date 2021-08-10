@@ -11,3 +11,6 @@ TL;DR: elnec.com has a great site.
 10:56 < karlp> general semiconductor looks pretty spot on
 10:56 < karlp> excellent, great site, thanks dongs
 
+
+<peterm> With small package smd parts with 4+ letters, only searching for the first or last 3 helps; often the last one is a date/lot/batch no
+<ultrasauce> fuckin bingo
