@@ -15,3 +15,25 @@
 16:47 <aandrew> so you need select Vz and the resistors so that the mosfet starts to open up at the right voltage for you
 16:56 <BrainDamage> zener off: Vs = Vin, Vg=Vin, Vs-Vg = 0 -> mos off, zener on: Vs = vin, Vg = Vz, Vs-Vg=Vin-Vz, if Vin-Vz>Vgs mos on, so the condition can also be written as Vin>Vgz+Vz
 
+
+## parts for ideal diode shits
+19:52 <englishman> whats a general purpose, cheap and available ideal diode or reverse current/voltage limiting IC for 2.8-5.2V, <100mA
+19:52 <englishman> i feel like there should be a lot of these
+19:53 <englishman> USB ORing basically with some shitty 2.8V source thrown in
+19:53 <englishman> LM66100 lets see what that does
+19:55 <englishman> hmm its one of those things that doesnt block reverse current when VIN is unpowered
+19:56 <englishman> ooh yes it does
+19:56 <englishman> nice
+19:59 <englishman> Similar to the Dual Ideal Diode circuit, the Status Output can also be used to control a discrete P-Channel
+19:59 <englishman> MOSFET
+19:59 <englishman> oh this will simplify the rest of the circuit too
+19:59 <englishman> nice
+20:00 <englishman> pretty much cheaper than a diode and plenty in stock
+20:34 <zyp> I looked at that, but went with the maxim one instead
+20:34 <zyp> max40200
+20:43 <zyp> but I don't do ORing, I do reverse current blocking
+....
+22:11 <qyx> englishman: lm66100
+22:12 <qyx> and my new replacement for tps2595 efuse/hot swap controller is STEF05
+22:13 <englishman> ty for independent confirmation that LM66100 is awesome
+

@@ -163,3 +163,13 @@ Shenzen cankemang U-USBAR04P-F002 - yes 13.14 / 2.71
 USB-C pulldowns:
 07:29 <jpa-> nice thing is that 5.1k +- 10% is ok for 4.7k +- 1%, so no need to have separate BOM line
 
+
+## combo quickcharge/pd.
+Peter M, [22.05.21 04:22]
+Anyone know if theres a part like stusb4500 that does quickcharge too?
+
+tc, [22.05.21 04:22]
+i never found anything chinesium thats combo
+
+tc, [22.05.21 04:22]
+i ended up using some silergy? or so part for QC and another thing for PD
