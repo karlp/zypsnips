@@ -97,20 +97,20 @@ class KLoad(gdb.Command):
             print("Usage: %s <file> <address>" % self.name)
             return
 
-	source = gdb.parse_and_eval(args[1])
+        source = gdb.parse_and_eval(args[1])
         addr = int(str(source), 0)
-	path = os.path.expanduser(args[0])
+        path = os.path.expanduser(args[0])
         print("trying to use file :%s, addr:%#x" % (path, addr))
         points = eval(open(path).read())
-	dest = source.dereference().type
-	elem_size = dest.sizeof
+        dest = source.dereference().type
+        elem_size = dest.sizeof
 
-	# A little hacky....
-	signed = True
-	if str(dest)[0] == 'u':
-		signed = False
+        # A little hacky....
+        signed = True
+        if str(dest)[0] == 'u':
+            signed = False
         fmt = "<%d%s" % (len(points), make_format_string_numeric(elem_size, signed))
-	print("Loading %d points from file into %#x as signed: %s elem_size:%d" % (len(points), addr, signed, elem_size))
+        print("Loading %d points from file into %#x as signed: %s elem_size:%d" % (len(points), addr, signed, elem_size))
         output = struct.pack(fmt, *points)
         gdb.selected_inferior().write_memory(addr, output)
 
@@ -121,18 +121,18 @@ class KRead(gdb.Command):
 
     def invoke(self, arg, from_tty):
         args = gdb.string_to_argv(arg)
-	print(args)
-	signed = False
-	if len(args) < 2:
-		print("Usage: %s <object> <length in elements> [signed]" % (self.name))
-		return
-	# This is ugly, but so be it.
-	source = gdb.parse_and_eval(args[0])
+        print(args)
+        signed = False
+        if len(args) < 2:
+            print("Usage: %s <object> <length in elements> [signed]" % (self.name))
+            return
+    	# This is ugly, but so be it.
+        source = gdb.parse_and_eval(args[0])
         addr = int(str(source), 0)
         length = int(args[1], 0)
-	if len(args) > 2 and args[2] == "signed":
-		signed = True
-	elem_size = source.dereference().type.sizeof
+        if len(args) > 2 and args[2] == "signed":
+            signed = True
+        elem_size = source.dereference().type.sizeof
         print("address = %#x, length = %d, signed = %s, size of each :%d" % (addr, length, signed, elem_size))
         q = gdb.selected_inferior().read_memory(addr, length * elem_size)
         fmt = "<%d%s" % (length, make_format_string_numeric(elem_size, signed))
@@ -148,13 +148,13 @@ class KGraph(gdb.Command):
 
     def invoke(self, arg, from_tty):
         args = gdb.string_to_argv(arg)
-	zero = 0
+        zero = 0
         if len(args) < 1:
-            print 'Usage: kgraph <object> [zeropoint]'
+            print('Usage: kgraph <object> [zeropoint]')
             return
         
         x = gdb.parse_and_eval(args[0])
-	if len(args) > 1:
+        if len(args) > 1:
        	    zero = int(gdb.parse_and_eval(args[1]))
 
         data = self.kk.crunch(x)
