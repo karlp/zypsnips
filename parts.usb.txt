@@ -127,6 +127,17 @@ https://lcsc.com/product-detail/Others_Anpec-Elec-APL3511CBI-TRG_C351147.html
 12:32:41           dongs | only useful for PD
 
 
+01:34 <upgrdman> damn, why are usb-c connector footprints ~all random
+01:34 <upgrdman> is there a more-common footprint for usb2.0 usb-c female connectors?
+01:34 <-- upgrdman (~upgrdman@blender/artist/upgrdman) has quit (Remote host closed the connection)
+01:35 --> upgrdman (~upgrdman@blender/artist/upgrdman) has joined ##stm32
+03:44 <dongs_> they are not random
+03:44 <dongs_> did you even zypsnips
+04:10 <jpa-> i use USB4085 for through-hole version and DX07S016JA1R1500 for SMD version; but the location of the alignment & mounting pins varies a bit between otherwise similar footprint connectors
+04:10 <jpa-> one can get most SMD connectors to fit by making the mounting hole slots extra long
+
+
+
 
 ## USB-A receptacles (usb pins are _always_ same, differences are in mounting pegs)
 You can get fancy, but _alll_ of these have matching footprints, so use one of them hey?
