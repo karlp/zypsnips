@@ -1,11 +1,16 @@
 #!/usr/bin/env python
 from __future__ import division
 import struct
+import matplotlib
 import matplotlib.pyplot as plot
+import multiprocessing
 import numpy
 import math
+import subprocess
+import tempfile
+
 import gdb
-#import gdb.types
+import gdb.types
 
 # GDB plugin for loading/saving/graphing memory
 
@@ -51,15 +56,27 @@ class Utils:
     def crunch(self, x):
         # the fuck? there's no gdb.types?
         #print("which is...", gdb.types.get_basic_type(x.type))
-        # from gdb-plot-0.0.3
-        # But surely there is a better way of doign it ?
-        x_str = str(x)
-        brace_pos = x_str.find('{')
-        brace_pos2 = x_str.find('}')
-        x_str = '[ %s ]' % x_str[ brace_pos+1:brace_pos2]
-        s = eval( '%s' % x_str )
-        # end snip...
-        return s
+        print("which is type: ", x.type)
+        print(f"which is of code: {x.type.code} vs type_code_array: {gdb.TYPE_CODE_ARRAY}?")
+        if x.type.code == gdb.TYPE_CODE_ARRAY:
+            # We _know_ it's an array
+            type_as_str = str(x.type)
+            brace_pos = type_as_str.find('[')
+            brace_pos2 = type_as_str.find(']')
+            klen = int(type_as_str[brace_pos+1:brace_pos2])
+            print(f"Explicit array of length: {klen}")
+            vals = [eval(str(x[i])) for i in range(klen)]
+            return vals
+            
+        else:
+            # from gdb-plot-0.0.3
+            # But surely there is a better way of doign it ?
+            x_str = str(x)
+            brace_pos = x_str.find('{')
+            brace_pos2 = x_str.find('}')
+            x_str = '[ %s ]' % x_str[ brace_pos+1:brace_pos2]
+            s = eval( '%s' % x_str )
+            return s
     
 
 def make_format_string_numeric(size, signed):
@@ -160,7 +177,7 @@ class KGraph(gdb.Command):
         data = self.kk.crunch(x)
 
         (rms, maxi, mini) = self.kk.calcrms(data, zero)
-        
+
         fig = plot.figure()
         ax = fig.add_subplot(111)
         ax.grid(True)
@@ -170,11 +187,23 @@ class KGraph(gdb.Command):
         plot.figtext(0.01,0.01, "RMS=%f max:%d, min:%d, start=%d" % (rms, max(data), min(data), zero))
         print("rms: %f max:%d, min:%d" % (rms, max(data), min(data)))
         print("maxi/mini at ", maxi, mini)
-        leg = ax.legend()#label, 'upper right', shadow=False)
+        leg = ax.legend(loc='upper right')
         leg.get_frame().set_alpha(0.5)
-        plot.show()
 
-        #print("you recorded %d samples" % len(data))
+        # Just this makes ctrl-c work, but the plot is never properly drawn...
+        #plot.show(block=False) # this lets ctrl-c work again..
+
+        # Just this works for local gdb, but not for gdb server
+        #plot.show()
+
+        # This will leave droppings in /tmp, but otherwise xdg-open loses the image!
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".png") as tf:
+            fig.savefig(tf)
+            subprocess.run(["xdg-open", tf.name])
+            #subprocess.Popen(f"xdg-open {tf.name} && sleep 5 && rm -f {tf.name}", shell=True)
+            print("immediately after popep")
+            #os.unlink(tf.name)
+        print("after plot call")
 
 
 KGraph()
