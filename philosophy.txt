@@ -46,6 +46,11 @@ On MISRA-C:
 04:24 < englishman> cant be that good if its waht toyota uses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+More on MISRA-C:
+19:23:25          qyx | what did misra teach you
+19:23:42         mawk | how to ignore warnings with inline comments
+
+
 On food.cn
 09:37 < crt> they'll make you eat eggs with chicken foetuses inside them
 09:38 < dongs> isnt that what an egg is
