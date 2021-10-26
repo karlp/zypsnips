@@ -1,3 +1,19 @@
 GDTs, MOVs & Fuses: Selecting the Appropriate Circuit Protection Component (Littelfuse) incl. photos, sparks and a lot of smoke.
 https://www.ieee.li/pdf/viewgraphs/selecting_the_appropriate_circuit_protection_component.pdf
 
+
+21:53 <BrainDamage> when the shunt was too hot, the motor was stalling for too long so stop it?
+21:53 <BrainDamage> alternate idea: measure the noise of the gears grinding
+21:54 <kakium69> I didn't thought that :o
+21:54 <BrainDamage> when the noise is too loud, stop it
+21:53 <BrainDamage> alternate idea: measure the noise of the gears grinding
+21:54 <kakium69> I didn't thought that :o
+21:54 <BrainDamage> when the noise is too loud, stop it
+21:54 <kakium69> it goes silent when it arrives to top
+21:54 <kakium69> maybe 8000hz burr from motor pwm
+21:56 <BrainDamage> then the supply was insufficient
+21:56 <kakium69> indeed
+21:56 <BrainDamage> everything should be on the verge of self destruction with firmware being the only mean of safety
+21:57 <kakium69> interesting perspective
+
+
