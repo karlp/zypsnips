@@ -67,3 +67,12 @@
 13:50 <englishman> im down with that multicore sac305 just because the flux is so good
 ```
 
+
+## Flux
+```
+Q, [26.10.21 13:32] i use amtech, but original amtech stinks, chink amtech clone is like flowers on a meadow
+A, [26.10.21 13:32] it's the uhigur oil they add to it
+Q, [26.10.21 13:33] really or trolling, never heard of such thing
+Q, [26.10.21 13:33] googling
+Q, [26.10.21 13:33] oh fuk
+```
