@@ -18,3 +18,25 @@ r2com offered this nugget:
 07:09 < dongs> ADP2503 does look nice
 TPS/ADP not providing enough juice or takin up too much room, or just out of stock? Feeling like WLCSP? 
 Try the ISL91110 today! 1.8v-5.5v in, 1.0v-5.2v out, 2.5mhz, doable on 6/6, price competative!
+
+
+"bigger"
+20:49 <karlp> so, going through zypsnips for bucks from 12 -> 5V sort of space, not seeing much, did I miss things that were suggested before?
+20:50 <qyx> tps62125?
+20:50 <zyp> rt7225 or whatever that was called?
+20:50 <qyx> but 300 mA only
+20:50 <karlp> qyx: yeah, was abotu to say, I want like 3-4A peak
+20:50 <qyx> 54240 then?
+20:50 <karlp> zyp: yeah, I thought there must be a richtek/mps part somewhere
+20:51 <qyx> nobody wants ti :(
+20:51 <antto> i'm dumb and i use onsemi's online PSU designer
+20:51 <karlp> 54240 looks ok, is that one you've used?
+
+
+RT7257B - 3A, 18V, 1.2MHz sync ~0.50 in singles
+TPS54240 - 2.5A, 42V, 100-2500kHz ~$3 in singles
+TPS563200 - 3A, 17V, 650kHz, ~0.50 in singles (family with 2A, 3A, 4A and different speeds, TPS56xxxx)
+TPS54531 - 5A, 28V, non-sync 570kHz, ~0.50 in singles
+AOZ3018 - 5A, 18V, sync 500kHz, ~0.50 in singles
+
+
