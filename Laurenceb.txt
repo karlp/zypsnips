@@ -35,3 +35,12 @@ http://ircpaint.randomlab.info/
 21:00:10     Laurenceb | >Steffanx thought I was working on actual hyperloop
 21:00:15     Laurenceb | I'm not that retarded
 
+
+
+17:12 <Steffanx> How does this work Laurenceb . You are allowed to spend £0 on hardware and waste millions on engineering hours?
+17:12 <Steffanx> Mr Laurenceb ?
+17:17 <Laurenceb> lol
+17:22 <englishman> not to mention lack of any clear goal
+17:26 <BrainDamage> laurenceb's job could be described as 'xy problem inventor'
+18:14 <jpa-> BrainDamage: some are problem solvers, some are solution problematicers
+
