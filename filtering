@@ -1,0 +1,26 @@
+11:36 <qyx> more ontopic: trying to minimise accelerometer noise
+11:36 <qyx> adding filtering on VDD and signal lines
+11:36 <qyx> I have read mixed recommendations, ferrite beads or series resistors?
+11:36 <mawk> loaded with my beautiful font loader engine: https://paste.serveur.io/Ondayn6c.c
+11:37 <mawk> what would series resistor do to noise?
+11:37 <qyx> I would say they are attenuating allband?
+11:39 <mawk> like, counting on some paraistic capacitance?
+11:46 <jpa-> qyx: usually resistors work better for low frequency noise (less than 1MHz) and ferrite beads for high-frequency noise; you can of course put both
+11:47 <jpa-> but make sure you have enough capacitors after the filter, so that the supply rail does not start drooping as the filter stops it from drawing varying current
+11:48 <qyx> yeah I have 10u, 1u, 100n
+11:49 <jpa-> what is your supply voltage coming from, and what else is hanging on it?
+11:49 <qyx> 1V8 from a smps
+11:49 <qyx> mcu :>
+11:49 <jpa-> what frequency smps?
+11:49 <qyx> 2 MHz
+11:50 <jpa-> yeah, kind of at the edge there.. i'd put a high dc-resistance ferrite bead and enough capacitance :)
+11:50 <qyx> https://www.rs-online.com/designspark/addressing-noise-concerns-to-mitigate-sensor-failure
+11:50 <qyx> interesting article
+11:52 <jpa-> like 0.5 ohm dc-resistance ferrite + your 10µF should give 36dB of attenuation at 2MHz, and the ferrite would block even better the higher frequency harmonics
+11:52 <qyx> looks like they are recommending 1800 ohm/100MHz ferrite
+11:52 <qyx> even more than 600R I put here
+11:52 <jpa-> filtering signal lines like that looks funny, i've just added series resistors at the driving end
+11:53 <jpa-> the ferrite reading at 100MHz is pretty much independent of their behavior at below 10MHz
+12:04 <qyx> should be enough then https://bin.jvnv.net/file/9Vw2M/Screenshot_2021-01-14_13-04-28.png
+12:06 <jpa-> will you be putting that poor chip in a cage all alone?
+
