@@ -29,3 +29,7 @@ but fuck that, way too many external parts...
 
 qyx stopped using L5973D, using TPS54240 instead (3.5V to 42V, 2.5A, low Iq)
 TPS62175 (28V, 0.5A, low Iq, low part count)
+
+
+from peterM
+~24V, 2-3A, ap63200 (sync, fuck all external parts, cheap and available)
