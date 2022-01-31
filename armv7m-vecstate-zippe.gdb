@@ -24,6 +24,8 @@ end
 define vecstate
 	set $icsr  = *(unsigned *)0xe000ed04
 	set $vect  = $icsr & 0x1ff
+	# irqs vs exceptions
+	set $vect_irqnum = $vect - 16
 	set $pend  = ($icsr & 0x1ff000) >> 12
 	set $shcsr = *(unsigned *)0xe000ed24
 	set $cfsr  = *(unsigned *)0xe000ed28
@@ -119,7 +121,7 @@ define vecstate
 		end
 	else
 		if $vect >= 15
-			printf "Handling vector %u\n", $vect
+			printf "Handling vector %u (irq: %u)\n", $vect, $vect_irqnum
 		end
 	end
 	if ((unsigned)$lr & 0xf0000000) == 0xf0000000
