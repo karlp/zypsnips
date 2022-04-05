@@ -15,6 +15,53 @@
 * NCP1597B - 2A, 4-5.5V, Iq ~1700uA, 1Mhz
 * TPS62040 - 1.2A, 2.5-6V, Iq ~18uA, 1.25MHz (fixed voltage variants available)
 
+### 0.4 mm pitch WLCSP-6 (L-side LX)
+
+A1 bump/ball is top-left, top view
+
+```
+O---------------------
+|   ----      ----   |
+|  |MODE|    |Vin |  |
+|   ----      ----   |
+|                    |
+|   ----      ----   |
+|  | LX |    | EN |  |
+|   ----      ----   |
+|                    |
+|   ----      ----   |
+|  | FB |    |GND |  |
+|   ----      ----   |
+----------------------
+```
+
+* ROHM BU9000x, 1.0 A, 3.0-5.5 V input, 1.0-3.3 V output, 45-55 uA, 3.6-6 MHz, multiple fixed versions available, (beware, there is a bottom view in the datasheet with wrong ball markings, physical footprint is the same)
+* FAN53601/53611, 600/1000 mA, 2.3-5.5 V input, 1-2 V output, 24 uA, 6 MHz, multiple fixed versions available
+* TPS6267x, 500/650 mA, 2.3-4.8 V input, 1.05-1.8 V output, 17 uA, 6 MHz, multiple fixed versions available
+* TPS62692/3/4/8, 800 mA, 2.3-4.8 V input, 2.2/2.85/2.95/3.0 V output, 21 uA, 3 MHz
+* ST1S15, 500 mA, 2.3-5.5 V input, 1.82 V output, 45 uA, 6 MHz
+
+### 0.4 mm pitch WLCSP-6 (R-side LX)
+
+A1 bump/ball is top-left, top view
+
+```
+O---------------------
+|   ----      ----   |
+|  | EN |    |Vin |  |
+|   ----      ----   |
+|                    |
+|   ----      ----   |
+|  |MODE|    | SW |  |
+|   ----      ----   |
+|                    |
+|   ----      ----   |
+|  | FB |    |GND |  |
+|   ----      ----   |
+----------------------
+```
+* LM3691, 2.3-5.5 V input, 0.75-3.3 V output, 64 uA, 4 MHz (bad light load efficiency)
+
 Lots of other stuff uses a slew of wildly incompatible footprints
 
 r2com offered this nugget, so I added ADP250x to the list.
