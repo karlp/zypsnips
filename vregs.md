@@ -1,19 +1,19 @@
 
 ## POL / ~5.5V buck/buck-boost pin compatible (1-2 cell target stuff)
 ### DFN10 ~ 3x3mm (SW1+SW2 style)
-TPS63000 - 1.8A, 1.8-5.5V, Iq ~50uA, ~1.3MHz  (fixed voltage variants available)
-MP2155 - 2.2A - 2-5.5V, Iq ~80uA, ~1MHz
-ADP2503 - 0.6A - 2.3-5.5V, Iq ~38uA, ~2.5Mhz (fixed voltage variants available)
-ADP2504 - 1A - 2.3-5.5V, Iq ~38uA, ~2.5Mhz (fixed voltage variants available)
+* TPS63000 - 1.8A, 1.8-5.5V, Iq ~50uA, ~1.3MHz  (fixed voltage variants available)
+* MP2155 - 2.2A - 2-5.5V, Iq ~80uA, ~1MHz
+* ADP2503 - 0.6A - 2.3-5.5V, Iq ~38uA, ~2.5Mhz (fixed voltage variants available)
+* ADP2504 - 1A - 2.3-5.5V, Iq ~38uA, ~2.5Mhz (fixed voltage variants available)
 
 ### DFN10 ~ 3x3mm ("boost sandwich")
-TPS54228 2A, 4.5-18V, Iq ~800uA, 700kHz
-RT7280 - 2A, 4.5-18V, Iq ~700uA, 700kHz (Discont)
-RT7279 - 2A, 4.5-18V, Iq ~700uA, 700kHz (Forced PWM)
+* TPS54228 2A, 4.5-18V, Iq ~800uA, 700kHz
+* RT7280 - 2A, 4.5-18V, Iq ~700uA, 700kHz (Discont)
+* RT7279 - 2A, 4.5-18V, Iq ~700uA, 700kHz (Forced PWM)
 
 ### DFN10 ~ 3x3mm (R-side GND/LX)
-NCP1597B - 2A, 4-5.5V, Iq ~1700uA, 1Mhz
-TPS62040 - 1.2A, 2.5-6V, Iq ~18uA, 1.25MHz (fixed voltage variants available)
+* NCP1597B - 2A, 4-5.5V, Iq ~1700uA, 1Mhz
+* TPS62040 - 1.2A, 2.5-6V, Iq ~18uA, 1.25MHz (fixed voltage variants available)
 
 Lots of other stuff uses a slew of wildly incompatible footprints
 
