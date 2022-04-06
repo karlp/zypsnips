@@ -1,0 +1,3 @@
+03:43 <upgrdman> that moment when youre porting arm code to a pic24, and realize that one fucking line of code now takes over 500us to execute, because a constant was "ULL" when it could have been "UL" which drops time below 100us
+03:43 <upgrdman> fucking 16bit MCUs in 2019. why. fml.
+
