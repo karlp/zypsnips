@@ -1,0 +1,16 @@
+
+On "larger" capacitance values in "smaller" packages. Some wisdom has been that
+while you _can_ get 10uF in 0603, you're going to pay for it, and it might have
+even worse dc bias derating than you thought.
+
+Also...
+
+PeterM: If its for dc -dc, or ac coupling, use bigger package, the bigger packages have
+    lower ESR and better DC bias characteristics. However if it is for an
+    mcu/fpga/asic/mpu or any high speed digital, use smaller packages for lower esl,
+    and the dc bias is going to be low enough it shouldnt effect it much
+AA: isn't the DC bias for a bypass cap application whatever the voltage rail is? 
+    e.g. 1.8V, 3.3V, whatever? and if you're using a 4V cap isn't that going
+    to derate it significantly?
+PeterM: Yes dc bias is the voltage of the rail, but the effect of dc bias on the cap
+    is dominated by the caps package, not its voltage rating
