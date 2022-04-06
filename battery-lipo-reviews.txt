@@ -1,0 +1,8 @@
+Qyx, [07.09.21 21:00] nkon doesn't have INR18650-M36 anymore, they were 2.23€ in the past
+Qyx, [07.09.21 21:01] now they are 5.25€ and out of stock
+Qyx, [07.09.21 21:01] besides that their capacity dropped
+Peter M, [07.09.21 21:45] Qyx from extensive testing i can tell you m36 are a waste of money unless you are <<100mA draw
+Peter M, [07.09.21 21:46] From about 100mA the MJ1 will provide more discharge energy
+Peter M, [07.09.21 21:47] And from about 500mA the samsung 35E is better
+Peter M, [07.09.21 21:49] This has been the case for atleast the past 4~ years
+Peter M, [07.09.21 21:50] Panasonic/sanyo ncr18650GA are about the same as mj1s
