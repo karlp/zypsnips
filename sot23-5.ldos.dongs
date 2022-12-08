@@ -11,10 +11,16 @@ LDK130M33R      5.5V max 300mA 200mV   (needs bypass)
 SPX3819M5-L-3-3/TR  16V 500mA max, 340mV, real mA waste current!
 LP2992AIM5-3.3/NOPB 16V max, 250mA, 450mV, 1.5mA, not real cheap
 RT9193  5.5V max 300mA, ~200mV, 90uA
+HX9193  6V, 600mA, 360mV (max), 110uA
 AP2112  6V max 600mA, 1000mV dropout! 55uA. 
 TPS709 30V input, 150mA, 1uA, (dropout linear with load)
 TCR2EF  5.5v max 200mA, 150mV dropout, vlow noise: 35uV, 35uA
 TPS7A20 6V, 300mA, vlow noise: 7uV, 7uA
+
+xx6219xVV ~6v, 300mA, ~200mV, <70uA, multi vendor china part, unsure of "original" part number
+XC6219B33 6V, 300mA, 200mV, 70uA,  (tech public)
+XC6219F33 6V, 300mA, 200mV, 25uA, (torex)
+ME6219C33 6V, 300mA, 300mV, 65uA,
 
 Original source:
 < dongs> http://bcas.tv/paste/results/gSlmgQ44.html
