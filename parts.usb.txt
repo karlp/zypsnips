@@ -162,6 +162,7 @@ Shenzen cankemang U-USBAR04P-F002 - yes 13.14 / 2.71
 
 USB-C pulldowns:
 07:29 <jpa-> nice thing is that 5.1k +- 10% is ok for 4.7k +- 1%, so no need to have separate BOM line
+(editor: it's also 2x10k in parallel, for bom line minimization...)
 
 
 ## combo quickcharge/pd.
