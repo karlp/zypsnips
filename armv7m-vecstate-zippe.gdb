@@ -105,6 +105,9 @@ define vecstate
 			if $ufsr & (1<<8)
 				printf " due to unaligned memory access"
 			end
+			if $ufsr & (1<<4)
+				printf " due to stack overflow"
+			end
 			if $ufsr & (1<<3)
 				printf " due to access to disabled/absent coprocessor"
 			end
