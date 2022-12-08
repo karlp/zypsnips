@@ -39,3 +39,5 @@
      - west-is-best-v2.0: https://imgur.com/a/CQaxK4
      - hotel warrior: https://imgur.com/a/L7aPFVA
      - 2021: https://twitter.com/akohlsmith/status/1357480455658962944
+- benishor
+     - 2022: https://photos.app.goo.gl/JhHCVxTtvAUECFua8
