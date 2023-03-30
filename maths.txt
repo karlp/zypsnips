@@ -19,3 +19,13 @@
 14:19:27     englishman | this is engineering, marketing sells 3.1415 but only has the budget for pi=3
 14:19:47           jpa- | and the computation actually needs tau
 
+
+19:44 <qyx> matlab pros, inverse of polyval?
+19:44 <qyx> I want to find x
+19:44 <Steffanx-> Laurenceb make yourself useful 
+< lolrence did not make himself useful>
+22:34 <mawk> qyx: find the root of p-a if you want the x such that p(x) = a
+22:34 <mawk> in methlab
+22:35 <qyx> I eyeballed the curve and applied an educated guess, then hardcoded the values
+22:35 <qyx> It worked flawlessly
+
