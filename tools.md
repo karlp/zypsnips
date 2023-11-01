@@ -1,11 +1,19 @@
-wire strippers:
+## wire strippers:
 
 https://www.amazon.ca/Greenlee-Communications-1822-Universal-0-18-1-Inch/dp/B000099O6A
 https://vimeo.com/239681864
 https://www.youtube.com/watch?v=sXsVv1eSmho
 
 
-soldering irons
+## soldering irons
+
+### Aixun T3B is popular
+Karl and zyp (and others?) have them.  Take JBC tips, super compact, super cheap, super fast.
+
+_major_ upgrade from original hakko 936  :)
+
+### TS-100 are popular.
+```
 15:18:06               * | PaulFertser still considers buying TS-100 just to have an easily portable
                          | temperature-controlled thing. And the reviews seem to be largerly positive. Yes/no?
 15:37:12         kakimir | PaulFertser: there is opensource pcb for ts100 now
@@ -92,36 +100,44 @@ soldering irons
 16:07:27     PaulFertser | Thank you for the advices kakimir, BrainDamage , much appreciated.
 16:19:48      englishman | PaulFertser: i got a ts100 and wired it to use with a 6S lipo for ultimate portability
 16:19:52      englishman | it has come in quite handy
+```
 
 
-
-bench meters:
+## bench meters:
+```
 08:02 <jpa-> meh, i must say that the owon XDM2041 is pretty crappy
 08:02 <jpa-> noisy measurements, slow autorange
 08:03 <jpa-> i guess i got what i paid for :)
 08:29 <Steffanx> Return it to dutchland, jpa-
 08:31 <jpa-> meh, not worth my time trying to get it returned - and it'll do what i need it to do
+```
 
 
-Power supplies:
+## Power supplies:
 Most people with Korad 300x series are happy with them.
 
 
-Oscilloscopes:
+## Oscilloscopes:
 
+```
 qyx | Owon SDS6062E: all rotary encoders are barely functional
 englishman | lol my owon encoders have sucked since day 1
 05:35 <jpa-> Steffanx: the scope i got was rigol DS1054Z; it's been mostly ok, just some small annoyances with the menus & the multifunction encoder knob is a bit small for my shaky fingers
 06:43 <emeb_mac> very happy with my Siglent sds1104x-e. 4chl 100MHz (1GSPS) with i2c/spi/serial decoding for ~$400
 06:44 <emeb_mac> buddy of mine just got a bricked Hantek and was able to restore it by hacking into the Linux serial port and doing some fiddling around with the filesystem. He says it's very poorly coded & the scope locks up frequently.
 06:45 <R2COM> my rigol DS4024 just works
+```
 
+```
 22:17:27        invzim | I got the mso5074, would not buy again
 22:17:32           zyp | oh?
 22:17:43        invzim | the ui is really sluggish
 22:18:09        invzim | like second+ resonse time
 22:18:15           zyp | I've been eyeing those, but I can't really justify a new scope
 22:18:49        invzim | and for some reason I can't do pulse trigger on channel 1&3 consistently
+```
+
+(zyp later got a riglol mso5072, updated to 5374, and is very happy with it)
 
 
 ## oscilloscope probes:
