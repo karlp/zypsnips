@@ -103,6 +103,10 @@ _major_ upgrade from original hakko 936  :)
 ```
 
 
+### SEQURE S60P
+Like a TS100, but with JBC tips! delightful! PaulF has one.
+
+
 ## bench meters:
 ```
 08:02 <jpa-> meh, i must say that the owon XDM2041 is pretty crappy
