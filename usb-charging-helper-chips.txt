@@ -38,3 +38,22 @@ hard can it be?
 
 
 Footnote for channel on-topicness: http://i.imgur.com/ts1tBQ7.jpg
+
+
+## USB-PD trigger things
+### CH224K
+Peter M, [6/9/23 3:43 AM] Yeah, arrived, worked good
+Peter M, [6/9/23 3:44 AM] Pg pin is only asserted when it has successfully negotiated, not when 5V is present
+Peter M, [6/9/23 3:48 AM] Also successfully negotiates the voltages on QC2.0 chargers not just PD chargers
+tc, [6/9/23 4:05 AM] did you use PG to drive a cutoff mosfet or anything or just for led?
+Peter M, [6/9/23 4:06 AM] Just LED, didn't know the conditions for PG being asserted
+tc, [6/9/23 4:06 AM] ah right
+Peter M, [6/9/23 4:15 AM] On the subsequent board i used aoz1327di's nEN to PG with a pullup to the Ch224ks VDD, dunno if its the most optimal part but seems alright
+tc, [6/9/23 4:17 AM] is that worth adding? if my applicaiton is negotiate 20V PD and just dc/dc it to like 5v/10A or someshit
+tc, [6/9/23 4:17 AM] no battery or charger etc
+tc, [6/9/23 4:17 AM] just 20V to get ~65W out of a PD brick
+Peter M, [6/9/23 4:18 AM] If thats all you're doing just set your UVLO to >15v will probably be fine
+tc, [6/9/23 4:19 AM] what does WCH do if you set negotiate at like 20V but you plug it into say a mobile battery that only does 12V/3A PD
+tc, [6/9/23 4:19 AM] does it stay at 5V?
+Peter M, [6/9/23 4:42 AM] Yeah, stays at 5V
+Peter M, [6/9/23 4:42 AM] It doesn't negotiate the next lowest
