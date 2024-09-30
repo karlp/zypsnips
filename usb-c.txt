@@ -12,3 +12,37 @@ also
 17:14:18          Thorn | they only have 1 row of smd contacts
 17:15:06          karlp | and like the one jpa linked.
 
+
+
+## LCSC / JLC /  generic usb2 only footprints...
+
+### Through hole for shield for strength, SMT for pads.
+
+8.64mm between back shield pins
+5.78mm between mounting NPTH
+4.2mm shield back to front centers. (sometimes 4.18mm is specified...)
+shields are 0.6x1.4mm at front, 0.6x1.7mm at back.
+pads start from midline of back shields, 0.3mm pads at 0.5mm pitch, fat for outer 4 (power/ground)
+
+** ALL of these are compatible **
+* G-Switch GT-USB-7010B C2837092
+* G-Switch GT-USB-7010C C2843967
+* G-Switch GT-USB-7010ASV C2988369 (This is in Kicad)
+* Dealon USB-TYPE-C-019 C2927039
+* Dealon USB-TYPE-C-018 C2927038
+* GCT USB-4105 (mouser/digikey)   (This is in Kicad)
+* Kinghelm KH-TYPE-C-16P-T C709358 (nominally only rated to 500mA)
+* Shou Han TYPE-C16P3MDDGP073 C2965608
+* Shou Han TYPE-C 16PIN 5A 143 C7431072
+* Shou Han TYPE-C 16PIN L8.35 C5379909  (longer receptacle than normal)
+* Korean Hroparts TYPE-C-31-M-12 C165948 (This is in Kicad, but, other footprints are better for it)
+* Yuandi TYPE-611-T3-W C2689844
+* XKB U262-161N-4BVC11 C319148 (This is in Kicad)
+
+
+** Slightly different
+* Hanbo MC-107D C2874568 is 4.15mm between shields?
+
+
+
+
