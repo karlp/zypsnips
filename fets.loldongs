@@ -52,6 +52,11 @@ SO-8 fets, with a magical one footprint to rule them all.
 07:11 < dongs> lots of those
 07:11 < PeterM> https://assets.nexperia.com/documents/leaflet/75016838.pdf qyx_ page 9
 [if the link is dead, the doc is called "LFPAK The toughest power-so8"]
+2024: Tired of jumbo 5x6mm so8?  Want to live in the future? 3x3mm is here too!
+The link abobe still works, but only covers LFPAK56. If you _search_ for the doc instead,
+you get a new document that includes both universal footprints. LFPAK33/DFN3333/DFN3030
+At the time of writing: https://www.nxp.com/docs/en/product-selector-guide/75017590.pdf
+includes both the 5x6mm and 3x3mm universal footprints.
 
 What's that, your SO-8 with pad is getting hot? Try these other magical footprints!
 < PeterM> karlp http://i.imgur.com/rkBJxOX.png add this shit to the wiki
