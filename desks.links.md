@@ -7,37 +7,39 @@
     - < zyp> https://bin.jvnv.net/file/ltuT0.jpg <- here's how my lab workplace looks
     - hmm, I haven't done a desk update in a while, I think desk is sufficiently messy now https://bin.jvnv.net/file/C8UoB.jpg
  - crt
-     - http://i.imgur.com/bUVnDLQ.jpg
+    - http://i.imgur.com/bUVnDLQ.jpg
  - kakimir
-     - https://drive.google.com/file/d/0B2GcdpJiNGfKQjhpb1dldnhpdW8/view
+    - https://drive.google.com/file/d/0B2GcdpJiNGfKQjhpb1dldnhpdW8/view
  - < k\o\w>
-     - https://goo.gl/photos/72bx3qC8GvcL7yAAA
+    - https://goo.gl/photos/72bx3qC8GvcL7yAAA
 - < jpa->
-     - http://koti.kapsi.fi/jpa/stuff/pix/P1010615.JPG
-     - later:  https://jpa.kapsi.fi/stuff/pix/7probes2scopes.jpg
+    - http://koti.kapsi.fi/jpa/stuff/pix/P1010615.JPG
+    - later:  https://jpa.kapsi.fi/stuff/pix/7probes2scopes.jpg
+    - 2025: https://jpa.kapsi.fi/stuff/pix/IMG_20230423_143113.jpg
 - < dongs>
-     - http://i.imgur.com/cpiDLLz.jpg
+    - http://i.imgur.com/cpiDLLz.jpg
 - leeloominai
-     - https://www.flickr.com/photos/100017731@N03/24655172365
+    - https://www.flickr.com/photos/100017731@N03/24655172365
 - < jadew>
-     - (busted, sorry) http://188.25.249.79/stuff/desk2.jpg
+    - (busted, sorry) http://188.25.249.79/stuff/desk2.jpg
 - < englishman>
-     - http://i.imgur.com/VVaObwt.jpg
+    - http://i.imgur.com/VVaObwt.jpg
 - < catphish>
-     - i have a regular office, but my desk is cool - https://i.imgur.com/N4GBxQH.jpg
+    - i have a regular office, but my desk is cool - https://i.imgur.com/N4GBxQH.jpg
 - karlp
-     - (2020) https://nc.beeroclock.net/s/YXBAatR9jiazoJ6
+    - (2020) https://nc.beeroclock.net/s/YXBAatR9jiazoJ6
 - qyx
-     - https://bin.jvnv.net/file/ZFsGJ.jpg
+    - https://bin.jvnv.net/file/ZFsGJ.jpg
+    - 2025: https://bin.jvnv.net/file/CHO94
 - fenugrec
-     - bench: https://ibb.co/5LjPyv6
-     - desk:  https://ibb.co/d64x8Ds
+    - bench: https://ibb.co/5LjPyv6
+    - desk:  https://ibb.co/d64x8Ds
 - upgrdman
-     - work: http://imgur.com/a/jAfEp
-     - home: http://farrellf.com/temp/monitors.jpg
+    - work: http://imgur.com/a/jAfEp
+    - home: http://farrellf.com/temp/monitors.jpg
 - aandrew
-     - west-is-best-v2.0: https://imgur.com/a/CQaxK4
-     - hotel warrior: https://imgur.com/a/L7aPFVA
-     - 2021: https://twitter.com/akohlsmith/status/1357480455658962944
+    - west-is-best-v2.0: https://imgur.com/a/CQaxK4
+    - hotel warrior: https://imgur.com/a/L7aPFVA
+    - 2021: https://twitter.com/akohlsmith/status/1357480455658962944
 - benishor
-     - 2022: https://photos.app.goo.gl/JhHCVxTtvAUECFua8
+    - 2022: https://photos.app.goo.gl/JhHCVxTtvAUECFua8
