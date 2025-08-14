@@ -57,6 +57,8 @@ The link abobe still works, but only covers LFPAK56. If you _search_ for the doc
 you get a new document that includes both universal footprints. LFPAK33/DFN3333/DFN3030
 At the time of writing: https://www.nxp.com/docs/en/product-selector-guide/75017590.pdf
 includes both the 5x6mm and 3x3mm universal footprints.
+2025: Diodes provides an alternate "universal" footprint for dfn3333/lfpak33:
+https://www.diodes.com/assets/App-Note-Files/PD3333-LFPAK33-Universal-Footprint-Application-Note.pdf
 
 What's that, your SO-8 with pad is getting hot? Try these other magical footprints!
 < PeterM> karlp http://i.imgur.com/rkBJxOX.png add this shit to the wiki
