@@ -51,3 +51,5 @@ dongs: https://i.imgur.com/wkPKZKV.jpg -> dongs | https://i.imgur.com/wkPKZKV.jp
 jpa: http://jpa.kapsi.fi/stuff/pix/lga14.jpg
 
 mangydog: https://cdn.discordapp.com/attachments/695271473308237985/763017204651917312/IMG_20201006_133740.jpg
+
+qyx: https://bin.jvnv.net/file/i0riR
