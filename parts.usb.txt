@@ -142,7 +142,7 @@ https://lcsc.com/product-detail/Others_Anpec-Elec-APL3511CBI-TRG_C351147.html
 ## USB-A receptacles (usb pins are _always_ same, differences are in mounting pegs)
 You can get fancy, but _alll_ of these have matching footprints, so use one of them hey?
 Cheapest digikey
-stewart SS-52100  (13.14mm at 2.71mm offset)
+stewart SS-52100  (13.14mm at 2.71mm offset) (This is in Kicad)
 Onshore USB-A1HSxx are 13.14 / 2.71
 amphenol UE27AC54100 13.14 / 2.71  (2.3m holes)
 Adam tech USB-A-S-RA  (13.14 / 2.71)
