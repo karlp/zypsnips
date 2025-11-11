@@ -29,6 +29,8 @@ but fuck that, way too many external parts...
 
 qyx stopped using L5973D, using TPS54240 instead (3.5V to 42V, 2.5A, low Iq)
 TPS62175 (28V, 0.5A, low Iq, low part count)
+2025: qyx now using lmr36006 "zero issues, accoustically quiet even in low power mode, pretty cheap"
+      qyx: also, lmr36015, lmr33620.  ap63357 specifically sings a lot, but otherwise works
 
 
 from peterM
