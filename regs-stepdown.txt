@@ -32,6 +32,21 @@ TPS62175 (28V, 0.5A, low Iq, low part count)
 2025: qyx now using lmr36006 "zero issues, accoustically quiet even in low power mode, pretty cheap"
       qyx: also, lmr36015, lmr33620.  ap63357 specifically sings a lot, but otherwise works
 
+karl's little, untested list of 40V+ (24v with _headroom_) for > 1A, synch only, less than $1
+(and no stupid packages)
+LMR54410 (sot23-6, 1A, 36/45?, 1.1MHz, $0.36)
+LMR33630 (so8, 3A, 36/38, various freqs, $0.47)
+LMR51420 (sot23-6, 2A 36/38, various freqs, $0.65+)
+LMR51610X (sot23-6, 1A, 65V, 400kHz, $0.56
+LMR38020 (so8, 2A, 80V, various, $0.70)
+AP64500 (ext comp, gross)
+AP64352	(so8, 3.5A, 40V, various, $0.90
+AP64350	(ext comp, gross)
+
+RT7272B (36V)
+SY8301, SY8303 (sot23, 40V, 1/3A, 2MHz, $0.25/$0.50)
+
+
 
 from peterM
 ~24V, 2-3A, ap63200 (sync, fuck all external parts, cheap and available)
