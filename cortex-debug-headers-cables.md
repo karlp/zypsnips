@@ -23,19 +23,20 @@ Like above, but with "moah fr33d0M" and now supporting windows!
 
 ## Board headers
 
-### esden's choice: FTSH-105-01-L-DV-K   (SMT)
+### esden's choice: FTSH-105-01-L-DV-K   (Semi Shrouded)
 not super cheap, (he gets from samtec directly) but it has partial 
 shrouding, only around the pins where the key on the cable goes, so it
 takes up a lot less space. 
 [Digikey partnumber SAM8799-ND](Or just http://www.digikey.com/product-search/en?keywords=SAM8799-ND)
+No known china clones at good prices. GCT does one, but it's ~same price
 
-### aandrew's choice: (and other people)
+### aandrew's choice: (and other people)  Full Shrouded
 < aandrew> I use the standard everyday fucking used everywhere digikey 1175-1629-nd
-
-* [Digikey 1175-1629-ND (smt)](http://www.digikey.com/product-search/en?keywords=1175-1629-ND)
-* [Digikey 1175-1627-ND (pth)](http://www.digikey.com/product-search/en?keywords=1175-1627-ND)
-
 Much much much cheaper, but fully fully shrouded, so more board space.
+
+* [Digikey 1175-1629-ND (smt)](https://www.digikey.com/en/products/detail/cnc-tech/3220-10-0300-00/3883266)
+* [Digikey 1175-1627-ND (pth)](https://www.digikey.com/en/products/detail/cnc-tech/3220-10-0100-00/3883661)
+* [Hanxia HX JN1.27-2x5 (smt)](https://www.lcsc.com/product-detail/C42372555.html) LCSC: C42372555
 
 ### englishman's choice: (shrouds and keys are for l0sers)
 
