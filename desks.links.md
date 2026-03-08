@@ -31,6 +31,7 @@
 - qyx
     - https://bin.jvnv.net/file/ZFsGJ.jpg
     - 2025: https://bin.jvnv.net/file/CHO94
+    - [2026](desktop.qyx-202603.jpg)
 - fenugrec
     - bench: https://ibb.co/5LjPyv6
     - desk:  https://ibb.co/d64x8Ds
