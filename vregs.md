@@ -108,4 +108,7 @@ TPS563200 - 3A, 17V, 650kHz, ~0.50 in singles (family with 2A, 3A, 4A and differ
 TPS54531 - 5A, 28V, non-sync 570kHz, ~0.50 in singles
 AOZ3018 - 5A, 18V, sync 500kHz, ~0.50 in singles
 
+## Industrial voltage range (24 V nominal)
 
+  * MAX25231 - 36 V max. input, 1.2 A output, Iq = 4 uA (confirmed, switching, no load), adjustable output and fixed output versions available (5.0 V, 3.3 V). Verified with 4u7/0.5A/4040 inductor, 2x 10u/25V/1206 input caps, 2x 10u/25V/1206 output caps (for 12-24 V range)
+  * MAX17630 - 36 V max. input, 1 A output, Verified with 1x1u/50V/1206 input caps, 4u7 inductor, 2x10u/10V/0805 output caps, R_RT = 12k (1.5 MHz)
